@@ -16,7 +16,7 @@ from utils import dateToISOString
 #############################
 
 # Normalie data function
-def normalize(data):
+def normalize(data, update_date):
 
 	# Load in mission object to add mission location data elements
 	missions_in = open('json/missions.json','rb')
@@ -138,7 +138,7 @@ def normalize(data):
 				'mission_country_id': missions[entry['mission']]['country_id'],
 				'mission_country': missions[entry['mission']]['country'],
 				'mission_hq': missions[entry['mission']]['hq'],
-				'mission_mission_loc': missions[entry['mission']]['mission_loc'],
+				'mission_hq_loc': missions[entry['mission']]['mission_loc'],
 				'mission_continent': countries[missions[entry['mission']]['country_id']]['continent'],
 				'mission_un_region': countries[missions[entry['mission']]['country_id']]['un_region'],
 				'mission_un_bloc': countries[missions[entry['mission']]['country_id']]['un_bloc'],
@@ -267,8 +267,10 @@ def normalize(data):
 		for param in double_array:
 			print param
 
+	# write out archive of update into archive folder 
+	print_out = open('../ppp_files/update_archive/json/' + update_date + '.json', 'w')
+	print_out.write(json.dumps(data_out, indent=4, separators=(',', ':')))
+
+	print_out.close()
+
 	return data_out
-
-
-if __name__ == '__main__':
-	normalize(data)

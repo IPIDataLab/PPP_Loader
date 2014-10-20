@@ -14,7 +14,7 @@ import json
 #############################
 #############################
 
-def get_new_ppp_data(date_str):
+def getNewData(date_str):
 	# build query param based of user date input
 	query = 'https://morph.io/byndcivilization/PPP_Scraper/data.json?key=vyhjk1ORXQTfwjY3vytr&query=select%20*%20from%20%22data%22%20where%20%22date%22%20%3D%20' + date_str
 
@@ -26,6 +26,3 @@ def get_new_ppp_data(date_str):
 	print "Morph.io API request returned " + str(len(update)) +" records."
 
 	return update
-
-if __name__ == '__main__':
-	get_new_ppp_data()
