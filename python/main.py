@@ -17,7 +17,9 @@ def main():
 	
 	# If arguemnts given but not enough throw and error
 	if len(argv) != 1 and len(argv) != 4:
-		print "Please enter authentication adn update target as arguments or at the prompt"
+		print '****************************************'
+		print "Please enter authentication and update target as arguments or at the prompt"
+		print '****************************************'
 		sys.exit()
 	else:
 		# if no arguments, prompt for user, password, and in date
@@ -34,7 +36,9 @@ def main():
 		
 		# check to see if all three fields have input
 		if len(username) < 1 or len(password) < 1 or len(in_date) < 1:
+			print '****************************************'
 			print "You must enter a username, password and date"
+			print '****************************************'
 			sys.exit()
 		else:
 			# validation check and str format
@@ -44,7 +48,10 @@ def main():
 
 			# if data returned, proceed
 			if len(update) == 0:
+				print '****************************************'
 				print 'No data returned from API. Check for API status or whether DPKO has published new numbers.'
+				print '****************************************'
+				sys.exit()
 			else:
 				# normalize data
 				norm_data = normalize(update, update_date)
@@ -66,7 +73,10 @@ def main():
 					s3LoadFiles()
 
 				elif status_check == 0:
+					print '****************************************'
 					print "Data already up to date."
+					print '****************************************'
+					sys.exit()
 			
 
 if __name__ == '__main__':

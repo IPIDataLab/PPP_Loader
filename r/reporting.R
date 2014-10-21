@@ -62,7 +62,13 @@ test <- require(reldist)
 if(test == FALSE) install.packages("reldist")
 require(reldist)
 
+### Cusom functions
+# Plots multiple ggplots as facets
 source("multiplot.R")
+
+# is.nan method for dataframes
+is.nan.data.frame <- function(x)
+  do.call(cbind, lapply(x, is.nan))
 
 rm(test)
 
@@ -70,9 +76,11 @@ rm(test)
 ## IMPORT DATA
 ###################################
 data.full <- read.csv("../ppp_files/full_data.csv")
+# data.full <- read.csv("../ppp_files/full_data_alt_1.csv")
+# data.full <- read.csv("../ppp_files/full_data_alt_2.csv")
 gender.full <- read.csv("../ppp_files/full_gender_data.csv")
 month.data <- read.csv("../ppp_files/current_month/current_month.csv")
- 
+
 ###################################
 ## PROCESS IMPORTED DATA
 ###################################
@@ -330,10 +338,11 @@ data.full.tcc <- ddply(data.full, .(date,tcc,tcc.iso3.alpha,tcc.cap.long,tcc.cap
                        total.med = median(total,na.rm=TRUE),
                        total.sd = sd(total,na.rm=TRUE))
 
-#remove 0's un troop, police, observers, and total columns
-tmp <- data.full.tcc[,c(19,23,27,31)]
-tmp[] <- lapply(tmp, function(x){replace(x, x == 0, NA)})
-data.full.tcc[,c(19,23,27,31)] <- tmp
+# remove 0's un troop, police, observers, and total columns
+tmp <- data.full.tcc[,c(19:34)]
+tmp[is.nan.data.frame(tmp)] <- NA
+tmp[] <- lapply(tmp, function(x){replace(x,x == 0, NA)})
+data.full.tcc[,c(19:34)] <- tmp
 rm(tmp)
 
 ## Mission aggregation from full
@@ -453,11 +462,11 @@ data.summary.monthly.tcc <- ddply(data.full.tcc, .(date), summarise,
                                   total.sd = sd(total.sum,na.rm=TRUE),
                                   troops.gini = gini(!is.na(troops.sum)),
                                   total.gini = gini(total.sum),
-                                  total.quint.first=sum(total.sum[total.sum <= quantile(total.sum,c(.2))]),
-                                  total.quint.second=sum(total.sum[total.sum <= quantile(total.sum,c(.4))]),
-                                  total.quint.third=sum(total.sum[total.sum <= quantile(total.sum,c(.6))]),
-                                  total.quint.fourth=sum(total.sum[total.sum <= quantile(total.sum,c(.8))]),
-                                  total.quint.fifth=sum(total.sum[total.sum <= quantile(total.sum,c(1))]))
+                                  total.quint.first=sum(total.sum[total.sum <= quantile(!is.nan(!is.na(total.sum)),c(.2))]),
+                                  total.quint.second=sum(total.sum[total.sum <= quantile(!is.nan(!is.na(total.sum)),c(.4))]),
+                                  total.quint.third=sum(total.sum[total.sum <= quantile(!is.nan(!is.na(total.sum)),c(.6))]),
+                                  total.quint.fourth=sum(total.sum[total.sum <= quantile(!is.nan(!is.na(total.sum)),c(.8))]),
+                                  total.quint.fifth=sum(total.sum[total.sum <= quantile(!is.nan(!is.na(total.sum)),c(1))]))
 
 ###################################
 ## MONTHLY PLOTS
@@ -746,15 +755,16 @@ rm(plot.continent.police)
 rm(plot.continent.total)
 rm(plot.continent.troops)
 
-###################################
-## COUNTRY PLOTS
-###################################
+##################################
+# COUNTRY PLOTS
+##################################
 #Create a list of countries
 tcc.vector<- as.vector(unique(data.full$tcc))
 
 #Loop through country list to create and save individual csv's and plots
 lapply(tcc.vector, function(c){
   tmp <- data.full.tcc[which(data.full.tcc$tcc == c),c(1,19,23,27)]
+  tmp[is.nan(tmp)] <- NA
   tmp.cols <- c('Date','Troops','Police','Experts')
   colnames(tmp) <- tmp.cols
   write.csv(tmp,paste0('../ppp_files/countries/',c,'.csv'),row.names=FALSE)

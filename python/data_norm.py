@@ -19,11 +19,11 @@ from utils import dateToISOString
 def normalize(data, update_date):
 
 	# Load in mission object to add mission location data elements
-	missions_in = open('json/missions.json','rb')
+	missions_in = open('../python/json/missions.json','rb')
 	missions = json.load(missions_in)
 
 	# Load in country object to add country location data elements
-	countries_in = open('json/countries.json','rb')
+	countries_in = open('../python/json/countries.json','rb')
 	countries = json.load(countries_in)
 
 	# Output data array of objects to load into mongo

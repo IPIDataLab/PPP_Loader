@@ -2,6 +2,7 @@
 
 import pymongo
 from pymongo import MongoClient
+import sys
 
 #############################
 #############################
@@ -13,9 +14,15 @@ from pymongo import MongoClient
 
 def dateCheck(date,username,password):
 	# Make db connection
-	client = MongoClient('localhost',27017)
-	db = client.pppDB
-	collection = db.contributions
+	try:
+		client = MongoClient('localhost',27017)
+		db = client.pppDB
+		collection = db.contributions
+	except pymongo.errors.ConnectionFailure:
+		print '****************************************'
+		print 'Your mongo DB instance is not connected. Either initiate mongod or install mongodb and initialize ppp data.'
+		print '****************************************'
+		sys.exit()
 
 	try:
 		db.authenticate(username,password)
@@ -26,9 +33,11 @@ def dateCheck(date,username,password):
 			return 0
 		else:
 			return 1
-	
 	except:
+		print '****************************************'
 		print "Wrong username or password!"
+		print '****************************************'
+		sys.exit()
 
 def mongoLoad(data,username,password):
 
