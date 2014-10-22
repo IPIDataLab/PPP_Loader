@@ -56,7 +56,7 @@ def main():
 				# normalize data
 				norm_data = normalize(update, update_date)
 
-				status_check = dateCheck(norm_data[1]['date'],username,password)
+				status_check = dateCheck(norm_data[1]['cont_date'],username,password)
 
 				if status_check == 1:
 					# Creat csv files for R script and for archive 

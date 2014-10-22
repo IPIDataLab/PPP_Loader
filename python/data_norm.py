@@ -44,7 +44,7 @@ def normalize(data, update_date):
 		if entry['date'] not in dates:
 			# create all mission all country object dont include numeric fields
 			data_out.append({
-				'date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
 				'tcc_country_id': 'all',
 				'mission': 'all',
 				'total': 0,
@@ -58,7 +58,7 @@ def normalize(data, update_date):
 		if (entry['tcc'] + '-' + entry['date']) not in country_date:
 			# Create all mission object for country date combo dont include numeric fields
 			data_out.append({
-				'date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
 				'tcc_country_id': entry['tccIso3Alpha'],
 				'tcc_country_string': entry['tcc'],
 				'tcc_au': countries[entry['tccIso3Alpha']]['au'],
@@ -102,7 +102,7 @@ def normalize(data, update_date):
 		if (entry['tcc'] + '-' + entry['date'] + '-' + entry['mission']) not in country_date_mission:
 			# create new country-mission-date object
 			data_out.append({
-				'date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
 				'tcc_country_id': entry['tccIso3Alpha'],
 				'tcc_country_string': entry['tcc'],
 				'tcc_au': countries[entry['tccIso3Alpha']]['au'],
@@ -211,6 +211,12 @@ def normalize(data, update_date):
 			data_out[dates_index][type_abbr_m] = entry['M']
 			data_out[dates_index][type_abbr_f] = entry['F']
 
+		# Add to totals for tcc and total aggregates
+		data_out[country_date_index]['total'] += entry['T']
+		data_out[country_date_index]['total_m'] += entry['M']
+		data_out[country_date_index]['total_f'] += entry['F']
+		data_out[dates_index]['total'] += entry['T']
+		data_out[dates_index]['total_m'] += entry['M']
 
 		# Observer corner case
 		if type_abbr == 'eom':
@@ -255,7 +261,7 @@ def normalize(data, update_date):
 	test_array = []
 	double_array = []
 	for point in data_out:
-		test_param = point['date'] + ' ' + point['tcc_country_id'] + ' ' + point['mission']
+		test_param = point['cont_date'] + ' ' + point['tcc_country_id'] + ' ' + point['mission']
 		if test_param in test_array:
 			double_array.append(test_param)
 		else:

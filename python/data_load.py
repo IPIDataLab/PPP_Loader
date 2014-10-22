@@ -29,7 +29,7 @@ def dateCheck(date,username,password):
 		print "Authenticated Mongo connection."
 
 
-		if collection.find({'date':date}).count() != 0:
+		if collection.find({'cont_date':date}).count() != 0:
 			return 0
 		else:
 			return 1

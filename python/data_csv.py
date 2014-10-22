@@ -11,7 +11,7 @@ gender_header_array = ['Date','Contributor','Contributor_ISO-3','Mission','Indiv
 
 def fullArrayConstructor(data):
 	output = []
-	date = data['date'][0:4] + '-' + data['date'][4:6] + '-' + data['date'][6:8]
+	date = data['cont_date'][0:4] + '-' + data['cont_date'][4:6] + '-' + data['cont_date'][6:8]
 	output.append(date)
 	output.append(data['tcc_country_string'])
 	output.append(data['tcc_country_id'])
@@ -95,7 +95,7 @@ def fullArrayConstructor(data):
 
 def genderArrayConstructor(data):
 	output = []
-	date = data['date'][0:4] + '-' + data['date'][4:6] + '-' + data['date'][6:8]
+	date = data['cont_date'][0:4] + '-' + data['cont_date'][4:6] + '-' + data['cont_date'][6:8]
 	output.append(date)
 	output.append(data['tcc_country_string'] + "'")
 	output.append(data['tcc_country_id'] + "'")

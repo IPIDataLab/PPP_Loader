@@ -1,10 +1,92 @@
-<html>
+<!DOCTYPE html>
 <head>
-</head>
-<body>
-  <div id="listing"></div>
+	<meta charset="utf-8">
+	<title>Providing for Peacekeeping file archive</title>
+	<meta name="description" content="archive of current PPP data and visualizations">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="http://rgrp.github.io/s3-bucket-listing/list.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		ul {
+    		list-style-type: none;
+		} 
+		li.title {
+			margin-bottom: 5px;
+		}
+		img.folder {
+			content:url("assets/folder.png");
+			width: 30px;
+		}
+
+		img.csv {
+			content:url("assets/CSV.png");
+			width: 25px;
+			margin-bottom: 2px;
+		}
+	</style>
+</head>
+
+<body padding="10px">
+	<div id="header" style="padding-left: 50px;">
+		<h1>Providing for Peacekeeping file archive</h1>
+	</div>
+
+	<div id="dir" style="padding-left: 50px;">
+		<ul>
+			<li class="title"><u>Folders</u></li>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/continent/index.html">
+				<li><img class="folder"></img>Continent</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/countries">	
+				<li><img class="folder"></img>Countries</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/current_month">	
+				<li><img class="folder"></img>Current Month</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/mission">	
+				<li><img class="folder"></img>Mission</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/regions">	
+				<li><img class="folder"></img>Regions</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/summaries">	
+				<li><img class="folder"></img>Summaries</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/update_archive">	
+				<li><img class="folder"></img>Update Archives</li>
+			</a>
+		</ul>
+		<ul>
+			<li class="title"><u>Full Data</u></li>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/full_data.csv">	
+				<li><img class="csv"></img>Full Data</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/full_gender_data.csv">	
+				<li><img class="csv"></img>Full Gender Data</li>
+			</a>
+		</ul>
+		<ul>
+			<li class="title"><u>Aggregations</u></li>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/data_continent.csv">	
+				<li><img class="csv"></img>Continent Totals by Month</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/data_regions.csv">	
+				<li><img class="csv"></img>Regional Totals by Month</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/data_tcc.csv">	
+				<li><img class="csv"></img>Country Totals by Month</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/data_mission.csv">	
+				<li><img class="csv"></img>Mission Totals by Month</li>
+			</a>
+			<a href="https://s3.amazonaws.com/providing-for-peacekeeping-docs/data_monthly.csv">	
+				<li><img class="csv"></img>Monthly Totals</li>
+			</a>
+		</ul>
+	</div>
+<!-- <body margin="50px"> -->
+	<!-- <h -->
+
+
+
 </body>
 </html>
