@@ -1,8 +1,9 @@
 #! /bin/bash
 
-sudo pip install boto
 sudo pip install requests
 sudo pip install pymongo
+sudo pip install boto
+sudo pip install rpy2
 
 echo "Please enter your Mongo username: "
 read user
