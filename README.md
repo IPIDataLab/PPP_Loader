@@ -59,7 +59,7 @@ Boto is a python package to manage connections to a variety AWS services. To mak
 key="<aws access key>";
 secret="<aws secret key>";
 
-cat > ~./boto << EOL
+cat > ~/.boto << EOL
 [Credentials]
 aws_access_key_id = ${key}
 aws_secret_access_key = ${secret}
