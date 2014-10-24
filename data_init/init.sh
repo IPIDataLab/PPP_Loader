@@ -47,5 +47,5 @@ mongoimport --jsonArray --collection countries --db pppDB --username $user --pas
 
 for i in `seq 3 8`;
         do
-               python ../python/main.py cperry 50Crat3s $i/14
+               sudo python ../python/main.py cperry 50Crat3s $i/14
         done  
