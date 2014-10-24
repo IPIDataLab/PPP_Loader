@@ -45,6 +45,7 @@ def mongoLoad(data,username,password):
 	client = MongoClient('localhost',27017)
 	db = client.pppDB
 	collection = db.contributions
+	db.authenticate(username,password)
 
 	collection.insert(data)
 	print str(len(data)) + " documents inserted into contributions collection."

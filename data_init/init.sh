@@ -7,7 +7,7 @@ echo "Please enter you Mongo password: "
 read password
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-        sudo apt-get install python-dev
+    sudo apt-get install python-dev
 	sudo apt-get install python-pip
 	sudo apt-get install r-base-core
 	sudo apt-get install r-base-dev
