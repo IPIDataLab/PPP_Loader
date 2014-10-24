@@ -1,15 +1,19 @@
 #! /bin/bash
 
-sudo pip install requests
-sudo pip install pymongo
-sudo pip install boto
-sudo pip install rpy2
-
 echo "Please enter your Mongo username: "
 read user
 
 echo "Please enter you Mongo password: "
 read password
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        sudo apt-get install python-devel
+
+sudo pip install requests
+sudo pip install pymongo
+sudo pip install boto
+sudo pip install rpy2
+
 
 echo "Loading contributions (part 1 of 10)"
 mongoimport --jsonArray --collection contributions --db pppDB --username $user --password $password --file collection_1_1.json

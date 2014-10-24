@@ -41,10 +41,10 @@ def normalize(data, update_date):
 	for entry in data:
 
 		# Check to see if all mission all country object has been created for that date
-		if entry['date'] not in dates:
+		if str(entry['date']) not in dates:
 			# create all mission all country object dont include numeric fields
 			data_out.append({
-				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(str(entry['date']), '%Y%m%d').date()), 
 				'tcc_country_id': 'all',
 				'mission': 'all',
 				'total': 0,
@@ -52,13 +52,13 @@ def normalize(data, update_date):
 				'total_f': 0
 			})
 			# Add key (date) value (data_out index number) pair to dates object
-			dates[entry['date']] = len(data_out)-1
+			dates[str(entry['date'])] = len(data_out)-1
 
 		# Check to see if all mission object has been created for that date country
-		if (entry['tcc'] + '-' + entry['date']) not in country_date:
+		if (entry['tcc'] + '-' + str(entry['date'])) not in country_date:
 			# Create all mission object for country date combo dont include numeric fields
 			data_out.append({
-				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(str(entry['date']), '%Y%m%d').date()), 
 				'tcc_country_id': entry['tccIso3Alpha'],
 				'tcc_country_string': entry['tcc'],
 				'tcc_au': countries[entry['tccIso3Alpha']]['au'],
@@ -97,12 +97,12 @@ def normalize(data, update_date):
 			})
 
 			# Add key (country-date) value (data_out index number) pair to dates object
-			country_date[(entry['tcc'] + '-' + entry['date'])] = len(data_out)-1
+			country_date[(entry['tcc'] + '-' + str(entry['date']))] = len(data_out)-1
 
-		if (entry['tcc'] + '-' + entry['date'] + '-' + entry['mission']) not in country_date_mission:
+		if (entry['tcc'] + '-' + str(entry['date']) + '-' + entry['mission']) not in country_date_mission:
 			# create new country-mission-date object
 			data_out.append({
-				'cont_date':dateToISOString(datetime.datetime.strptime(entry['date'], '%Y%m%d').date()), 
+				'cont_date':dateToISOString(datetime.datetime.strptime(str(entry['date']), '%Y%m%d').date()), 
 				'tcc_country_id': entry['tccIso3Alpha'],
 				'tcc_country_string': entry['tcc'],
 				'tcc_au': countries[entry['tccIso3Alpha']]['au'],
@@ -171,12 +171,12 @@ def normalize(data, update_date):
 				'total_f': 0
 			})
 			# Add key (country-date-mission) value (data_out index number) pair to dates object
-			country_date_mission[(entry['tcc'] + '-' + entry['date'] + '-' + entry['mission'])] = len(data_out)-1
+			country_date_mission[(entry['tcc'] + '-' + str(entry['date']) + '-' + entry['mission'])] = len(data_out)-1
 		
 		# Get insertion indexes for current entry
-		country_date_mission_index = country_date_mission[(entry['tcc'] + '-' + entry['date'] + '-' + entry['mission'])]
-		country_date_index = country_date[(entry['tcc'] + '-' + entry['date'])]
-		dates_index = dates[entry['date']]
+		country_date_mission_index = country_date_mission[(entry['tcc'] + '-' + str(entry['date']) + '-' + entry['mission'])]
+		country_date_index = country_date[(entry['tcc'] + '-' + str(entry['date']))]
+		dates_index = dates[str(entry['date'])]
 
 		# Convert type to correct convention
 		type_abbr = type_dict[entry['type']]
