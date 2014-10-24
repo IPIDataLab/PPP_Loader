@@ -8,6 +8,10 @@ read password
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
         sudo apt-get install python-devel
+	sudo apt-get install python-pip
+	sudo apt-get install r-base-core
+	sudo apt-get install r-base-dev
+fi
 
 sudo pip install requests
 sudo pip install pymongo
