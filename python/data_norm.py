@@ -217,6 +217,7 @@ def normalize(data, update_date):
 		data_out[country_date_index]['total_f'] += entry['F']
 		data_out[dates_index]['total'] += entry['T']
 		data_out[dates_index]['total_m'] += entry['M']
+		data_out[dates_index]['total_f'] += entry['F']
 
 		# Observer corner case
 		if type_abbr == 'eom':

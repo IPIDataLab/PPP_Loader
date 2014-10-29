@@ -3,15 +3,15 @@
 import sys
 from sys import argv
 import traceback
+import json
+import subprocess
+import rpy2.robjects as robjects
 from data_get import getNewData
 from data_norm import normalize
 from data_csv import csvCreator
 from data_load import mongoLoad, dateCheck
-from utils import validate
-import json
-import subprocess
 from s3_connect import s3LoadFiles
-import rpy2.robjects as robjects
+from utils import validate
 
 def main():
 	

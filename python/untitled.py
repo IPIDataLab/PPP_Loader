@@ -1,18 +1,18 @@
-import pymongo
-from pymongo import MongoClient
-import sys
-
-try:
-	uri = "mongodb://cperry:50Crat3s@localhost:27017/pppDB"
-# 		# mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
-# # uri = "mongodb://user:password@example.com/?authSource=source_database"
-	client = MongoClient(uri)
-# 		# client = MongoClient('ec2-54-209-244-136.compute-1.amazonaws.com',27017)
-# 		# client = MongoClient('localhost',27017)
-# 	db = client.pppDB
-# 	collection = db.contributions
-except:
-	print "error"
+import os.path
+import re
 
 
-# ssh -N -L 27017:127.0.0.1:80 bitnami@ec2-54-209-244-136.compute-1.amazonaws.com
+upload_file_names = []
+
+for (source_dir, dir_list, file_list) in os.walk('../ppp_files/'):
+	for file_name in file_list:
+		if file_name == '.DS_Store':
+			pass
+		elif source_dir == '../ppp_files/':
+			upload_file_names.append(file_name)
+		else:
+			target = source_dir + '/' + file_name
+			match = re.match("../ppp_files/(.+)", target)
+			upload_file_names.append(match.groups()[0])
+
+print upload_file_names

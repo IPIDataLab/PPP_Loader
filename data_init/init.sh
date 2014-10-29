@@ -6,11 +6,21 @@ read user
 echo "Please enter you Mongo password: "
 read password
 
+# Set current month and year
+cur_mon=$(date +%m)
+cur_year=$(date +%y)
+
+if [[ $cur_mon -eq 1 ]]; then
+	let "cur_year-=1"
+
+fi
+
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     sudo apt-get install python-dev
 	sudo apt-get install python-pip
 	sudo apt-get install r-base-core
 	sudo apt-get install r-base-dev
+	sudo apt-get update
 fi
 
 sudo pip install requests
@@ -45,7 +55,32 @@ mongoimport --jsonArray --collection missions --db pppDB --username $user --pass
 echo "Loading countries"
 mongoimport --jsonArray --collection countries --db pppDB --username $user --password $password --file collection_3.json
 
-for i in `seq 3 8`;
-        do
-               sudo python ../python/main.py cperry 50Crat3s $i/14
-        done  
+
+# update data apprpriately
+if [[ $cur_year -eq 14 ]]; then
+	for m in `seq 3 $cur_mon`;
+		do
+			echo $m/$cur_year
+			sudo python ../python/main.py $user $password $m/$cur_year
+		done
+	exit
+fi
+
+for y in `seq 14 $cur_year`;
+	do
+		if [[ $y -eq $cur_year ]]; then
+			for m in `seq 1 $cur_mon`;
+				do
+					echo $m/$y
+					sudo python ../python/main.py $user $password $m/$y
+				done
+			exit
+		fi
+		if [[ $y -ne $cur_year ]]; then
+			for m in `seq 1 12`;
+				do
+					echo $m/$y
+					sudo python ../python/main.py $user $password $m/$y
+				done
+		fi
+	done
