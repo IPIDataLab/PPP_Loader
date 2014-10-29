@@ -55,8 +55,6 @@ mongoimport --jsonArray --collection missions --db pppDB --username $user --pass
 echo "Loading countries"
 mongoimport --jsonArray --collection countries --db pppDB --username $user --password $password --file collection_3.json
 
-<<<<<<< HEAD
-
 # update data apprpriately
 if [[ $cur_year -eq 14 ]]; then
 	for m in `seq 3 $cur_mon`;
@@ -85,9 +83,3 @@ for y in `seq 14 $cur_year`;
 				done
 		fi
 	done
-=======
-for i in `seq 3 8`;
-        do
-               sudo python ../python/main.py $user $password $i/14
-        done  
->>>>>>> 69ef0b5ccee33d134c54b4f065603224646f246e
