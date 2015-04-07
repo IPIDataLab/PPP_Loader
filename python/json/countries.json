@@ -8602,5 +8602,41 @@
         "asean":false,
         "g77":true,
         "arab_league":false
+    },
+    "BTN":{
+        "country_id":"BTN",
+        "au":false,
+        "eu":false,
+        "un_bloc":"APG",
+        "ecowas":false,
+        "continent":"Asia",
+        "cen_sad":false,
+        "gcc":false,
+        "g20":false,
+        "un_region":"South-Eastern Asia",
+        "eccas":false,
+        "shanghai":false,
+        "capital_loc":{
+            "y":27.4666,
+            "x":89.6416
+        },
+        "nam":true,
+        "oecd":false,
+        "nato":false,
+        "capital":"Thimphu",
+        "country_name":"Bhutan",
+        "uma":false,
+        "igad":false,
+        "sadc":false,
+        "eac":false,
+        "oic":false,
+        "g8":false,
+        "comesa":false,
+        "p5g4a3":"None",
+        "oas":false,
+        "cis":false,
+        "asean":false,
+        "g77":true,
+        "arab_league":false
     }
 }
