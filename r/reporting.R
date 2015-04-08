@@ -773,7 +773,7 @@ lapply(tcc.vector, function(c){
   colnames(tmp) <- tmp.cols
   tmp.p <- ggplot(tmp, aes(Date,Value))
   tmp.p <- tmp.p + geom_line(aes(color=Type,), size=.75, alpha=.7)  
-  tmp.p <- tmp.p + labs(title=paste('Figure 1:', c,'Uniformed Personnel Contributions to UN Peacekeeping Operations, 1990-2014', sep=" "),x='Year',y='', color='')
+  tmp.p <- tmp.p + labs(title=paste('Figure 1:', c,'Uniformed Personnel Contributions to UN Peacekeeping Operations, 1990-2015', sep=" "),x='Year',y='', color='')
   tmp.p <- tmp.p + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
   tmp.p <- tmp.p + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1),plot.title = element_text(size = 7))
   ggsave(tmp.p,file=paste0('../ppp_files/countries/',c,'.png'),height=4,width=6)
