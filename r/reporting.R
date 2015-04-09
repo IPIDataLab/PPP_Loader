@@ -705,7 +705,7 @@ rm(plot.region.oceania)
 # Total contributions
 plot.continent.total <- ggplot(data.full.continent, aes(date,total))
 plot.continent.total <- plot.continent.total + geom_line(aes(color=tcc.continent))
-plot.continent.total <- plot.continent.total + labs(title = 'Total Contributions by Continent',x='Year',y='Total UN Peacekeeping Contributions',color='Continent')
+plot.continent.total <- plot.continent.total + labs(title = 'Number of Uniformed UN Peacekeeping Contributions by Region',x='Year',y='Total UN Peacekeeping Contributions',color='Continent')
 plot.continent.total <- plot.continent.total + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.total <- plot.continent.total + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.total <- plot.continent.total + scale_color_brewer(palette='Paired')
@@ -737,7 +737,7 @@ plot.continent.troops <- plot.continent.troops + scale_color_brewer(palette='Pai
 # Number of contributors
 plot.continent.contributors <- ggplot(data.full.continent, aes(date,n.contributors))
 plot.continent.contributors <- plot.continent.contributors + geom_line(aes(color=tcc.continent))
-plot.continent.contributors <- plot.continent.contributors + labs(title = 'Contributors by Continent',x='Year',y='Number of Troop Contributing Countries',color='Continent')
+plot.continent.contributors <- plot.continent.contributors + labs(title = 'Number of Troop Contributing Countries by Region ',x='Year',y='Number of Troop Contributing Countries',color='Continent')
 plot.continent.contributors <- plot.continent.contributors + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.contributors <- plot.continent.contributors + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.contributors <- plot.continent.contributors + scale_color_brewer(palette='Paired')
@@ -819,7 +819,7 @@ plot.region.deployments.europe <- plot.region.deployments.europe + scale_fill_br
 #total deployments plot
 plot.continent.deployments.total <- ggplot(data.full.mission.continent, aes(date,total))
 plot.continent.deployments.total <- plot.continent.deployments.total + geom_line(aes(color=mission.continent))
-plot.continent.deployments.total <- plot.continent.deployments.total + labs(title = 'Total Deployments by Continent',x='Year',y='Total UN Peacekeeping Deployments',color='Continent')
+plot.continent.deployments.total <- plot.continent.deployments.total + labs(title = 'Number of Uniformed Peacekeepers Deployed to Each Region',x='Year',y='Total UN Peacekeeping Deployments',color='Continent')
 plot.continent.deployments.total <- plot.continent.deployments.total + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.deployments.total <- plot.continent.deployments.total + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.deployments.total <- plot.continent.deployments.total + scale_color_brewer(palette='Paired')
@@ -864,7 +864,7 @@ summary.tmp$variable <- factor(summary.tmp$variable,levels=c('Troops','Police','
 # Plot monthly totals
 plot.monthly.totals <- ggplot(summary.tmp, aes(Date,value))
 plot.monthly.totals <- plot.monthly.totals + geom_area(aes(color=variable, fill=variable,order=desc(variable)), position="stack")
-plot.monthly.totals <- plot.monthly.totals + labs(title = 'Monthly UN Peacekeeping Deployments ',x='Year',y='Total UN Peacekeepers',fill='Type',color='Type')
+plot.monthly.totals <- plot.monthly.totals + labs(title = 'Total Number of Uniformed UN Peacekeepers Deployed by Type',x='Year',y='Total UN Peacekeepers',fill='Type',color='Type')
 plot.monthly.totals <- plot.monthly.totals + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.monthly.totals <- plot.monthly.totals + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 colors <- brewer.pal(name="Blues", n=nlevels(summary.tmp$variable))
