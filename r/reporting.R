@@ -749,7 +749,7 @@ plot.continent.troops <- plot.continent.troops + scale_color_brewer(palette='Pai
 # Number of contributors
 plot.continent.contributors <- ggplot(data.full.continent, aes(date,n.contributors))
 plot.continent.contributors <- plot.continent.contributors + geom_line(aes(color=tcc.continent))
-plot.continent.contributors <- plot.continent.contributors + labs(title = 'Number of Troop Contributing Countries by Region ',x='Year',y='Number of Troop Contributing Countries',color='Continent')
+plot.continent.contributors <- plot.continent.contributors + labs(title = 'Number of Troop Contributing Countries by Region',x='Year',y='Number of Troop Contributing Countries',color='Continent')
 plot.continent.contributors <- plot.continent.contributors + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.contributors <- plot.continent.contributors + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.contributors <- plot.continent.contributors + scale_color_brewer(palette='Paired')
