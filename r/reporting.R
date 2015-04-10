@@ -484,23 +484,27 @@ paired <- brewer.pal(name="Paired", n=nlevels(current.region.deploy$mission.un.r
 names(paired) <- rev(levels(current.region.deploy$mission.un.region))
 
 #plot
-plot.troops.region <- ggplot(data=current.region.deploy,aes(x=factor(1),y=troops.perc,fill = factor(mission.un.region))) 
-plot.troops.region <- plot.troops.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(labels = percent)
+plot.troops.region <- ggplot(data=subset(current.region.deploy, troops.perc>0),aes(x=factor(1),y=troops.perc,fill = factor(mission.un.region))) 
+currentmonthpercentage <- format(round(100*current.region.deploy$troops.perc, digits=1))
+plot.troops.region <- plot.troops.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(breaks=cumsum(current.region.deploy$troops.perc) - current.region.deploy$troops.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.troops.region <- plot.troops.region + labs(title = paste('Troop Deployments', current.date),fill='Region',color='Region')
 plot.troops.region <- plot.troops.region + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.police.region <- ggplot(current.region.deploy,aes(x=factor(1),y=pol.perc,fill = factor(mission.un.region))) 
-plot.police.region <- plot.police.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.region.deploy$pol.perc, digits=1))
+plot.police.region <- plot.police.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(breaks=cumsum(current.region.deploy$pol.perc) - current.region.deploy$pol.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.police.region <- plot.police.region + labs(title = paste('Police Deployments', current.date),fill='Region',color='Region')
 plot.police.region <- plot.police.region + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.observers.region <- ggplot(current.region.deploy,aes(x=factor(1),y=obsv.perc,fill = factor(mission.un.region))) 
-plot.observers.region <- plot.observers.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.region.deploy$obsv.perc, digits=1))
+plot.observers.region <- plot.observers.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(breaks=cumsum(current.region.deploy$obsv.perc) - current.region.deploy$obsv.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.observers.region <- plot.observers.region + labs(title = paste('Experts on Mission Deployments', current.date),fill='Region',color='Region')
 plot.observers.region <- plot.observers.region + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.total.region <- ggplot(current.region.deploy,aes(x=factor(1),y=tot.perc,fill = factor(mission.un.region))) 
-plot.total.region <- plot.total.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.region.deploy$tot.perc, digits=1))
+plot.total.region <- plot.total.region + geom_bar(stat='identity') + coord_polar(theta="y") + scale_y_continuous(breaks=cumsum(current.region.deploy$tot.perc) - current.region.deploy$tot.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.total.region <- plot.total.region + labs(title = paste('Total Deployments', current.date),fill='Region',color='Region')
 plot.total.region <- plot.total.region + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
@@ -515,23 +519,27 @@ names(paired) <- rev(levels(current.continent.deploy$mission.continent))
 
 #plot
 plot.troops.continent <- ggplot(current.continent.deploy,aes(x=factor(1),y=troops.perc,fill = factor(mission.continent))) 
-plot.troops.continent <- plot.troops.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
-plot.troops.continent <- plot.troops.continent + labs(title = paste('Total Deployments', current.date),fill='Continent',color='Continent')
+currentmonthpercentage <- format(round(100*current.continent.deploy$troops.perc, digits=1))
+plot.troops.continent <- plot.troops.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.deploy$troops.perc) - current.continent.deploy$troops.perc/2, labels=paste(currentmonthpercentage, "%"))
+plot.troops.continent <- plot.troops.continent + labs(title = paste('Troop Deployments', current.date),fill='Continent',color='Continent')
 plot.troops.continent <- plot.troops.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.police.continent <- ggplot(current.continent.deploy,aes(x=factor(1),y=pol.perc,fill = factor(mission.continent))) 
-plot.police.continent <- plot.police.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.deploy$pol.perc, digits=1))
+plot.police.continent <- plot.police.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.deploy$pol.perc) - current.continent.deploy$pol.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.police.continent <- plot.police.continent + labs(title = paste('Police Deployments', current.date),fill='Continent',color='Continent')
 plot.police.continent <- plot.police.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.observers.continent <- ggplot(current.continent.deploy,aes(x=factor(1),y=obsv.perc,fill = factor(mission.continent))) 
-plot.observers.continent <- plot.observers.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.deploy$obsv.perc, digits=1))
+plot.observers.continent <- plot.observers.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.deploy$obsv.perc) - current.continent.deploy$obsv.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.observers.continent <- plot.observers.continent + labs(title = paste('Experts on Mission Deployments', current.date),fill='Continent',color='Continent')
 plot.observers.continent <- plot.observers.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.total.continent <- ggplot(current.continent.deploy,aes(x=factor(1),y=tot.perc,fill = factor(mission.continent))) 
-plot.total.continent <- plot.total.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
-plot.total.continent <- plot.total.continent + labs(title = paste('Police Deployments', current.date),fill='Continent',color='Continent')
+currentmonthpercentage <- format(round(100*current.continent.deploy$tot.perc, digits=1))
+plot.total.continent <- plot.total.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.deploy$tot.perc) - current.continent.deploy$tot.perc/2, labels=paste(currentmonthpercentage, "%"))
+plot.total.continent <- plot.total.continent + labs(title = paste('Total Deployments', current.date),fill='Continent',color='Continent')
 plot.total.continent <- plot.total.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 #set plots on single page
@@ -545,22 +553,26 @@ names(paired) <- rev(levels(current.continent.cont$tcc.continent))
 
 #Create Plots
 plot.troopcont.continent <- ggplot(current.continent.cont,aes(x=factor(1),y=troops.perc,fill = factor(tcc.continent))) 
-plot.troopcont.continent <- plot.troopcont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.cont$troops.perc, digits=1))
+plot.troopcont.continent <- plot.troopcont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.cont$troops.perc) - current.continent.cont$troops.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.troopcont.continent <- plot.troopcont.continent + labs(title = paste('Troop Contributions', current.date),fill='Continent',color='Continent')
 plot.troopcont.continent <- plot.troopcont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.policecont.continent <- ggplot(current.continent.cont,aes(x=factor(1),y=pol.perc,fill = factor(tcc.continent))) 
-plot.policecont.continent <- plot.policecont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.cont$pol.perc, digits=1))
+plot.policecont.continent <- plot.policecont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.cont$pol.perc) - current.continent.cont$pol.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.policecont.continent <- plot.policecont.continent + labs(title = paste('Police Contributions', current.date),fill='Continent',color='Continent')
 plot.policecont.continent <- plot.policecont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.observerscont.continent <- ggplot(current.continent.cont,aes(x=factor(1),y=obsv.perc,fill = factor(tcc.continent))) 
-plot.observerscont.continent <- plot.observerscont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.cont$obsv.perc, digits=1))
+plot.observerscont.continent <- plot.observerscont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.cont$obsv.perc) - current.continent.cont$obsv.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.observerscont.continent <- plot.observerscont.continent + labs(title = paste('Experts on Mission Contributions', current.date),fill='Continent',color='Continent')
 plot.observerscont.continent <- plot.observerscont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 plot.totalcont.continent <- ggplot(current.continent.cont,aes(x=factor(1),y=tot.perc,fill = factor(tcc.continent))) 
-plot.totalcont.continent <- plot.totalcont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(labels = percent)
+currentmonthpercentage <- format(round(100*current.continent.cont$tot.perc, digits=1))
+plot.totalcont.continent <- plot.totalcont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(current.continent.cont$tot.perc) - current.continent.cont$tot.perc/2, labels=paste(currentmonthpercentage, "%"))
 plot.totalcont.continent <- plot.totalcont.continent + labs(title = paste('Total Contributions', current.date),fill='Continent',color='Continent')
 plot.totalcont.continent <- plot.troopcont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
@@ -705,7 +717,7 @@ rm(plot.region.oceania)
 # Total contributions
 plot.continent.total <- ggplot(data.full.continent, aes(date,total))
 plot.continent.total <- plot.continent.total + geom_line(aes(color=tcc.continent))
-plot.continent.total <- plot.continent.total + labs(title = 'Total Contributions by Continent',x='Year',y='Total UN Peacekeeping Contributions',color='Continent')
+plot.continent.total <- plot.continent.total + labs(title = 'Number of Uniformed UN Peacekeeping Contributions by Region',x='Year',y='Total UN Peacekeeping Contributions',color='Continent')
 plot.continent.total <- plot.continent.total + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.total <- plot.continent.total + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.total <- plot.continent.total + scale_color_brewer(palette='Paired')
@@ -737,7 +749,7 @@ plot.continent.troops <- plot.continent.troops + scale_color_brewer(palette='Pai
 # Number of contributors
 plot.continent.contributors <- ggplot(data.full.continent, aes(date,n.contributors))
 plot.continent.contributors <- plot.continent.contributors + geom_line(aes(color=tcc.continent))
-plot.continent.contributors <- plot.continent.contributors + labs(title = 'Contributors by Continent',x='Year',y='Number of Troop Contributing Countries',color='Continent')
+plot.continent.contributors <- plot.continent.contributors + labs(title = 'Number of Troop Contributing Countries by Region',x='Year',y='Number of Troop Contributing Countries',color='Continent')
 plot.continent.contributors <- plot.continent.contributors + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.contributors <- plot.continent.contributors + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.contributors <- plot.continent.contributors + scale_color_brewer(palette='Paired')
@@ -819,7 +831,7 @@ plot.region.deployments.europe <- plot.region.deployments.europe + scale_fill_br
 #total deployments plot
 plot.continent.deployments.total <- ggplot(data.full.mission.continent, aes(date,total))
 plot.continent.deployments.total <- plot.continent.deployments.total + geom_line(aes(color=mission.continent))
-plot.continent.deployments.total <- plot.continent.deployments.total + labs(title = 'Total Deployments by Continent',x='Year',y='Total UN Peacekeeping Deployments',color='Continent')
+plot.continent.deployments.total <- plot.continent.deployments.total + labs(title = 'Number of Uniformed Peacekeepers Deployed to Each Region',x='Year',y='Total UN Peacekeeping Deployments',color='Continent')
 plot.continent.deployments.total <- plot.continent.deployments.total + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.continent.deployments.total <- plot.continent.deployments.total + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 plot.continent.deployments.total <- plot.continent.deployments.total + scale_color_brewer(palette='Paired')
@@ -864,7 +876,7 @@ summary.tmp$variable <- factor(summary.tmp$variable,levels=c('Troops','Police','
 # Plot monthly totals
 plot.monthly.totals <- ggplot(summary.tmp, aes(Date,value))
 plot.monthly.totals <- plot.monthly.totals + geom_area(aes(color=variable, fill=variable,order=desc(variable)), position="stack")
-plot.monthly.totals <- plot.monthly.totals + labs(title = 'Monthly UN Peacekeeping Deployments ',x='Year',y='Total UN Peacekeepers',fill='Type',color='Type')
+plot.monthly.totals <- plot.monthly.totals + labs(title = 'Total Number of Uniformed UN Peacekeepers Deployed by Type',x='Year',y='Total UN Peacekeepers',fill='Type',color='Type')
 plot.monthly.totals <- plot.monthly.totals + theme_bw() + scale_x_date(labels = date_format("%Y"), breaks = date_breaks("year"))
 plot.monthly.totals <- plot.monthly.totals + theme(legend.position="bottom",axis.text.x = element_text(angle = 45, hjust = 1))
 colors <- brewer.pal(name="Blues", n=nlevels(summary.tmp$variable))
