@@ -476,7 +476,7 @@ current.date <- format(month.data[1,1], format="%B %Y")
  
 #set pie options
 pie.options <- theme_bw() + theme(axis.line=element_blank(),axis.text.y=element_blank(),axis.ticks=element_blank(),
-                     axis.title.x=element_blank(),axis.title.y=element_blank(),panel.border=element_blank())
+                     axis.title.x=element_blank(),axis.title.y=element_blank(),panel.border=element_blank(),panel.grid=element_blank())
 
 ## Plot pie of current deployments
 # Set color palatte
