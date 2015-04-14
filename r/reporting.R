@@ -562,7 +562,7 @@ plot.observerscont.continent <- plot.observerscont.continent + pie.options + sca
 plot.totalcont.continent <- ggplot(current.continent.cont,aes(x=factor(1),y=tot.perc,fill = factor(tcc.continent))) 
 plot.totalcont.continent <- plot.totalcont.continent + geom_bar(stat='identity') + coord_polar(theta="y") + theme_bw() + scale_y_continuous(breaks=cumsum(subset(current.continent.cont,tot.perc>0)$tot.perc) - subset(current.continent.cont,tot.perc>0)$tot.perc/2, labels=paste(round(100*subset(current.continent.cont,tot.perc>0)$tot.perc, digits=2),"%"))
 plot.totalcont.continent <- plot.totalcont.continent + labs(title = paste('Total Contributions', current.date),fill='Continent',color='Continent')
-plot.totalcont.continent <- plot.troopcont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
+plot.totalcont.continent <- plot.totalcont.continent + pie.options + scale_fill_manual(values=paired) + scale_color_manual(values=paired)
 
 #set plots on single page
 png(paste0('../ppp_files/current_month/',current.date,' Contributions.png'),height=800,width=1000)
