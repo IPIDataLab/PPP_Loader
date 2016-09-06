@@ -1,4 +1,14 @@
 {
+    "UNMC":{
+        "country":"",
+        "hq":"",
+        "country_id":"",
+        "mission":"UNMC",
+        "mission_loc":{
+            "y":0,
+            "x":0
+        }
+    },
     "UNMOGIP":{
         "country":"Pakistan",
         "hq":"Islamabad",
