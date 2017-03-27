@@ -73,6 +73,7 @@ for y in `seq 14 17`;
 					echo $m/$y
 					sudo python ../python/main.py $user $password $m/$y
 				done
+			exit
 		fi
 		if [[ $y -ne 15 ]]; then
 			for m in `seq 1 12`;
