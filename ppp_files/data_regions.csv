@@ -5575,3 +5575,747 @@
 2014-03-31,"Western Africa","Africa",15,15187,3108,276,18571
 2014-03-31,"Western Asia","Asia",6,1606,1570,131,3307
 2014-03-31,"Western Europe","Europe",6,1558,108,71,1737
+2014-04-30,"Australia and New Zealand","Oceania",2,15,15,31,61
+2014-04-30,"Caribbean","South America",3,2,14,NA,16
+2014-04-30,"Central America","South America",3,418,2,29,449
+2014-04-30,"Central Asia","Asia",2,NA,25,6,31
+2014-04-30,"Eastern Africa","Africa",12,14666,1098,265,16029
+2014-04-30,"Eastern Asia","Asia",4,3772,174,59,4005
+2014-04-30,"Eastern Europe","Europe",10,746,163,164,1073
+2014-04-30,"Melanesia","Oceania",3,704,67,3,774
+2014-04-30,"Micronesia","Oceania",1,1,NA,1,2
+2014-04-30,"Middle Africa","Africa",4,1144,187,5,1336
+2014-04-30,"Northern Africa","Africa",4,3803,440,123,4366
+2014-04-30,"Northern America","North America",2,51,191,18,260
+2014-04-30,"Northern Europe","Europe",8,1044,88,102,1234
+2014-04-30,"Polynesia","Oceania",1,NA,16,NA,16
+2014-04-30,"South America","South America",9,5550,111,140,5801
+2014-04-30,"South-Eastern Asia","Asia",7,3775,233,79,4087
+2014-04-30,"Southern Africa","Africa",3,2119,121,44,2284
+2014-04-30,"Southern Asia","Asia",6,25478,4143,261,29882
+2014-04-30,"Southern Europe","Europe",11,2222,86,52,2360
+2014-04-30,"Western Africa","Africa",15,15104,3105,280,18489
+2014-04-30,"Western Asia","Asia",6,1580,1541,133,3254
+2014-04-30,"Western Europe","Europe",6,1742,109,69,1920
+2014-05-31,"Australia and New Zealand","Oceania",2,12,15,30,57
+2014-05-31,"Caribbean","South America",3,2,14,NA,16
+2014-05-31,"Central America","South America",3,435,2,29,466
+2014-05-31,"Central Asia","Asia",2,NA,26,7,33
+2014-05-31,"Eastern Africa","Africa",12,14999,1135,257,16391
+2014-05-31,"Eastern Asia","Asia",4,3782,174,56,4012
+2014-05-31,"Eastern Europe","Europe",10,762,157,158,1077
+2014-05-31,"Melanesia","Oceania",3,701,66,3,770
+2014-05-31,"Micronesia","Oceania",1,1,NA,1,2
+2014-05-31,"Middle Africa","Africa",4,1139,182,10,1331
+2014-05-31,"Northern Africa","Africa",4,4260,448,127,4835
+2014-05-31,"Northern America","North America",2,54,179,19,252
+2014-05-31,"Northern Europe","Europe",8,1082,87,99,1268
+2014-05-31,"Polynesia","Oceania",1,NA,16,NA,16
+2014-05-31,"South America","South America",9,5497,109,146,5752
+2014-05-31,"South-Eastern Asia","Asia",7,3769,237,81,4087
+2014-05-31,"Southern Africa","Africa",3,2113,121,36,2270
+2014-05-31,"Southern Asia","Asia",6,25622,4211,288,30121
+2014-05-31,"Southern Europe","Europe",11,1978,80,52,2110
+2014-05-31,"Western Africa","Africa",15,15196,3203,261,18660
+2014-05-31,"Western Asia","Asia",6,1422,1839,134,3395
+2014-05-31,"Western Europe","Europe",6,1956,105,66,2127
+2014-06-30,"Australia and New Zealand","Oceania",2,12,15,31,58
+2014-06-30,"Caribbean","South America",3,2,16,NA,18
+2014-06-30,"Central America","South America",3,420,2,28,450
+2014-06-30,"Central Asia","Asia",2,NA,26,8,34
+2014-06-30,"Eastern Africa","Africa",12,15216,1048,260,16524
+2014-06-30,"Eastern Asia","Asia",4,3779,176,63,4018
+2014-06-30,"Eastern Europe","Europe",10,764,160,161,1085
+2014-06-30,"Melanesia","Oceania",3,698,66,5,769
+2014-06-30,"Micronesia","Oceania",1,1,NA,1,2
+2014-06-30,"Middle Africa","Africa",4,1131,185,11,1327
+2014-06-30,"Northern Africa","Africa",4,4359,452,124,4935
+2014-06-30,"Northern America","North America",2,53,176,19,248
+2014-06-30,"Northern Europe","Europe",8,1090,87,97,1274
+2014-06-30,"Polynesia","Oceania",1,NA,15,NA,15
+2014-06-30,"South America","South America",9,5479,96,143,5718
+2014-06-30,"South-Eastern Asia","Asia",7,3677,225,80,3982
+2014-06-30,"Southern Africa","Africa",3,2137,141,38,2316
+2014-06-30,"Southern Asia","Asia",6,25538,4189,268,29995
+2014-06-30,"Southern Europe","Europe",11,2002,79,46,2127
+2014-06-30,"Western Africa","Africa",15,15210,3135,260,18605
+2014-06-30,"Western Asia","Asia",6,883,1810,129,2822
+2014-06-30,"Western Europe","Europe",7,1876,103,64,2043
+2014-07-31,"Australia and New Zealand","Oceania",2,12,15,28,55
+2014-07-31,"Caribbean","South America",3,2,16,NA,18
+2014-07-31,"Central America","South America",3,420,2,27,449
+2014-07-31,"Central Asia","Asia",2,NA,26,8,34
+2014-07-31,"Eastern Africa","Africa",12,15832,995,250,17077
+2014-07-31,"Eastern Asia","Asia",4,3781,175,62,4018
+2014-07-31,"Eastern Europe","Europe",10,754,165,161,1080
+2014-07-31,"Melanesia","Oceania",3,671,66,3,740
+2014-07-31,"Micronesia","Oceania",1,1,NA,1,2
+2014-07-31,"Middle Africa","Africa",4,1129,161,11,1301
+2014-07-31,"Northern Africa","Africa",4,4345,447,124,4916
+2014-07-31,"Northern America","North America",2,52,164,18,234
+2014-07-31,"Northern Europe","Europe",8,1050,81,98,1229
+2014-07-31,"Polynesia","Oceania",1,NA,15,NA,15
+2014-07-31,"South America","South America",9,5475,92,141,5708
+2014-07-31,"South-Eastern Asia","Asia",8,3664,224,83,3971
+2014-07-31,"Southern Africa","Africa",3,2134,133,38,2305
+2014-07-31,"Southern Asia","Asia",5,26024,3746,264,30034
+2014-07-31,"Southern Europe","Europe",11,1975,79,44,2098
+2014-07-31,"Western Africa","Africa",15,13483,2987,251,16721
+2014-07-31,"Western Asia","Asia",6,892,1735,128,2755
+2014-07-31,"Western Europe","Europe",7,1899,101,64,2064
+2014-08-31,"Australia and New Zealand","Oceania",2,12,15,28,55
+2014-08-31,"Caribbean","South America",3,2,16,NA,18
+2014-08-31,"Central America","South America",3,455,2,30,487
+2014-08-31,"Central Asia","Asia",2,NA,25,9,34
+2014-08-31,"Eastern Africa","Africa",12,15898,991,244,17133
+2014-08-31,"Eastern Asia","Asia",4,3780,175,60,4015
+2014-08-31,"Eastern Europe","Europe",10,724,157,149,1030
+2014-08-31,"Melanesia","Oceania",3,641,66,5,712
+2014-08-31,"Micronesia","Oceania",1,1,NA,1,2
+2014-08-31,"Middle Africa","Africa",4,1206,147,11,1364
+2014-08-31,"Northern Africa","Africa",4,4201,467,121,4789
+2014-08-31,"Northern America","North America",2,53,164,18,235
+2014-08-31,"Northern Europe","Europe",8,1057,78,98,1233
+2014-08-31,"Polynesia","Oceania",1,NA,15,NA,15
+2014-08-31,"South America","South America",9,5614,95,123,5832
+2014-08-31,"South-Eastern Asia","Asia",7,3769,222,79,4070
+2014-08-31,"Southern Africa","Africa",3,2154,132,39,2325
+2014-08-31,"Southern Asia","Asia",6,26912,3700,259,30871
+2014-08-31,"Southern Europe","Europe",11,2008,78,36,2122
+2014-08-31,"Western Africa","Africa",15,13490,3082,241,16813
+2014-08-31,"Western Asia","Asia",6,885,1736,125,2746
+2014-08-31,"Western Europe","Europe",7,1881,102,63,2046
+2014-09-30,"Australia and New Zealand","Oceania",2,19,15,27,61
+2014-09-30,"Caribbean","South America",3,2,16,NA,18
+2014-09-30,"Central America","South America",3,420,2,31,453
+2014-09-30,"Central Asia","Asia",3,NA,25,10,35
+2014-09-30,"Eastern Africa","Africa",12,17561,1389,251,19201
+2014-09-30,"Eastern Asia","Asia",4,3780,175,62,4017
+2014-09-30,"Eastern Europe","Europe",10,723,156,156,1035
+2014-09-30,"Melanesia","Oceania",3,641,58,3,702
+2014-09-30,"Micronesia","Oceania",1,1,NA,1,2
+2014-09-30,"Middle Africa","Africa",6,4169,711,12,4892
+2014-09-30,"Northern Africa","Africa",4,4381,486,119,4986
+2014-09-30,"Northern America","North America",2,53,160,18,231
+2014-09-30,"Northern Europe","Europe",8,1053,82,99,1234
+2014-09-30,"Polynesia","Oceania",1,NA,14,NA,14
+2014-09-30,"South America","South America",9,5454,92,120,5666
+2014-09-30,"South-Eastern Asia","Asia",9,3454,230,85,3769
+2014-09-30,"Southern Africa","Africa",3,2158,130,37,2325
+2014-09-30,"Southern Asia","Asia",6,27723,3686,260,31669
+2014-09-30,"Southern Europe","Europe",11,2101,82,41,2224
+2014-09-30,"Western Africa","Africa",15,13504,3096,237,16837
+2014-09-30,"Western Asia","Asia",6,828,1798,121,2747
+2014-09-30,"Western Europe","Europe",7,1886,113,67,2066
+2014-10-31,"Australia and New Zealand","Oceania",2,12,15,27,54
+2014-10-31,"Caribbean","South America",3,2,16,NA,18
+2014-10-31,"Central America","South America",3,434,1,32,467
+2014-10-31,"Central Asia","Asia",3,NA,25,11,36
+2014-10-31,"Eastern Africa","Africa",11,17562,1370,257,19189
+2014-10-31,"Eastern Asia","Asia",4,3775,175,58,4008
+2014-10-31,"Eastern Europe","Europe",10,720,152,157,1029
+2014-10-31,"Melanesia","Oceania",3,641,58,4,703
+2014-10-31,"Micronesia","Oceania",1,1,NA,1,2
+2014-10-31,"Middle Africa","Africa",6,4163,704,14,4881
+2014-10-31,"Northern Africa","Africa",4,4431,486,107,5024
+2014-10-31,"Northern America","North America",2,58,144,18,220
+2014-10-31,"Northern Europe","Europe",8,1108,90,98,1296
+2014-10-31,"Polynesia","Oceania",1,NA,14,NA,14
+2014-10-31,"South America","South America",9,5452,96,135,5683
+2014-10-31,"South-Eastern Asia","Asia",9,3439,224,88,3751
+2014-10-31,"Southern Africa","Africa",3,2159,129,38,2326
+2014-10-31,"Southern Asia","Asia",6,27487,3602,269,31358
+2014-10-31,"Southern Europe","Europe",11,2137,71,45,2253
+2014-10-31,"Western Africa","Africa",15,13471,3092,243,16806
+2014-10-31,"Western Asia","Asia",6,961,1765,112,2838
+2014-10-31,"Western Europe","Europe",6,1825,102,69,1996
+2014-11-30,"Australia and New Zealand","Oceania",2,13,15,26,54
+2014-11-30,"Caribbean","South America",2,NA,16,NA,16
+2014-11-30,"Central America","South America",3,420,1,33,454
+2014-11-30,"Central Asia","Asia",3,2,26,12,40
+2014-11-30,"Eastern Africa","Africa",11,17600,1439,223,19262
+2014-11-30,"Eastern Asia","Asia",4,3785,177,57,4019
+2014-11-30,"Eastern Europe","Europe",10,718,139,153,1010
+2014-11-30,"Melanesia","Oceania",3,619,55,4,678
+2014-11-30,"Micronesia","Oceania",1,1,NA,1,2
+2014-11-30,"Middle Africa","Africa",6,4262,712,15,4989
+2014-11-30,"Northern Africa","Africa",4,4385,489,115,4989
+2014-11-30,"Northern America","North America",2,53,171,18,242
+2014-11-30,"Northern Europe","Europe",8,1181,88,98,1367
+2014-11-30,"Polynesia","Oceania",1,NA,16,NA,16
+2014-11-30,"South America","South America",9,5452,92,139,5683
+2014-11-30,"South-Eastern Asia","Asia",8,3524,201,86,3811
+2014-11-30,"Southern Africa","Africa",3,2073,135,37,2245
+2014-11-30,"Southern Asia","Asia",6,28216,3584,273,32073
+2014-11-30,"Southern Europe","Europe",11,2018,76,46,2140
+2014-11-30,"Western Africa","Africa",15,13462,3112,242,16816
+2014-11-30,"Western Asia","Asia",6,401,1782,103,2286
+2014-11-30,"Western Europe","Europe",6,1956,104,68,2128
+2014-12-31,"Australia and New Zealand","Oceania",2,15,15,26,56
+2014-12-31,"Caribbean","South America",2,NA,16,NA,16
+2014-12-31,"Central America","South America",3,423,NA,27,450
+2014-12-31,"Central Asia","Asia",1,2,17,12,31
+2014-12-31,"Eastern Africa","Africa",11,17626,1497,238,19361
+2014-12-31,"Eastern Asia","Asia",4,3769,177,60,4006
+2014-12-31,"Eastern Europe","Europe",10,716,143,146,1005
+2014-12-31,"Melanesia","Oceania",3,615,55,4,674
+2014-12-31,"Micronesia","Oceania",1,1,NA,1,2
+2014-12-31,"Middle Africa","Africa",6,4284,701,15,5000
+2014-12-31,"Northern Africa","Africa",4,4438,508,120,5066
+2014-12-31,"Northern America","North America",2,57,166,17,240
+2014-12-31,"Northern Europe","Europe",8,1184,87,97,1368
+2014-12-31,"Polynesia","Oceania",1,NA,14,NA,14
+2014-12-31,"South America","South America",9,5462,97,131,5690
+2014-12-31,"South-Eastern Asia","Asia",8,3527,194,88,3809
+2014-12-31,"Southern Africa","Africa",3,2146,100,34,2280
+2014-12-31,"Southern Asia","Asia",6,27913,3624,301,31838
+2014-12-31,"Southern Europe","Europe",11,2065,72,43,2180
+2014-12-31,"Western Africa","Africa",15,13456,3091,242,16789
+2014-12-31,"Western Asia","Asia",6,400,1773,102,2275
+2014-12-31,"Western Europe","Europe",6,1749,95,68,1912
+2015-01-31,"Australia and New Zealand","Oceania",2,15,15,26,56
+2015-01-31,"Caribbean","South America",2,NA,16,NA,16
+2015-01-31,"Central America","South America",3,423,NA,30,453
+2015-01-31,"Central Asia","Asia",2,2,15,11,28
+2015-01-31,"Eastern Africa","Africa",11,17497,1539,268,19304
+2015-01-31,"Eastern Asia","Asia",4,3809,179,63,4051
+2015-01-31,"Eastern Europe","Europe",10,717,141,147,1005
+2015-01-31,"Melanesia","Oceania",2,615,63,3,681
+2015-01-31,"Middle Africa","Africa",6,4278,705,15,4998
+2015-01-31,"Northern Africa","Africa",4,4440,514,115,5069
+2015-01-31,"Northern America","North America",2,58,164,17,239
+2015-01-31,"Northern Europe","Europe",8,1131,78,97,1306
+2015-01-31,"Polynesia","Oceania",1,NA,14,NA,14
+2015-01-31,"South America","South America",9,5163,98,125,5386
+2015-01-31,"South-Eastern Asia","Asia",8,3564,195,95,3854
+2015-01-31,"Southern Africa","Africa",3,2134,100,33,2267
+2015-01-31,"Southern Asia","Asia",6,28459,3627,309,32395
+2015-01-31,"Southern Europe","Europe",11,2120,71,45,2236
+2015-01-31,"Western Africa","Africa",15,13665,3086,239,16990
+2015-01-31,"Western Asia","Asia",6,396,1726,91,2213
+2015-01-31,"Western Europe","Europe",6,1778,91,66,1935
+2015-02-28,"Australia and New Zealand","Oceania",2,15,14,27,56
+2015-02-28,"Caribbean","South America",2,NA,16,NA,16
+2015-02-28,"Central America","South America",3,422,NA,32,454
+2015-02-28,"Central Asia","Asia",2,2,14,11,27
+2015-02-28,"Eastern Africa","Africa",11,17524,1550,270,19344
+2015-02-28,"Eastern Asia","Asia",4,3957,179,65,4201
+2015-02-28,"Eastern Europe","Europe",10,723,137,149,1009
+2015-02-28,"Melanesia","Oceania",2,614,44,3,661
+2015-02-28,"Middle Africa","Africa",6,4285,697,15,4997
+2015-02-28,"Northern Africa","Africa",4,4458,527,121,5106
+2015-02-28,"Northern America","North America",2,58,134,17,209
+2015-02-28,"Northern Europe","Europe",8,1196,84,97,1377
+2015-02-28,"Polynesia","Oceania",1,NA,14,NA,14
+2015-02-28,"South America","South America",9,5121,98,132,5351
+2015-02-28,"South-Eastern Asia","Asia",8,3568,193,90,3851
+2015-02-28,"Southern Africa","Africa",3,2124,103,32,2259
+2015-02-28,"Southern Asia","Asia",5,28468,3643,305,32416
+2015-02-28,"Southern Europe","Europe",11,2126,69,50,2245
+2015-02-28,"Western Africa","Africa",15,13718,3170,241,17129
+2015-02-28,"Western Asia","Asia",6,382,1752,98,2232
+2015-02-28,"Western Europe","Europe",6,1815,94,65,1974
+2015-03-31,"Australia and New Zealand","Oceania",2,14,14,26,54
+2015-03-31,"Caribbean","South America",2,NA,16,NA,16
+2015-03-31,"Central America","South America",3,431,4,33,468
+2015-03-31,"Central Asia","Asia",2,2,14,12,28
+2015-03-31,"Eastern Africa","Africa",11,17605,1604,275,19484
+2015-03-31,"Eastern Asia","Asia",4,3956,179,66,4201
+2015-03-31,"Eastern Europe","Europe",10,722,161,140,1023
+2015-03-31,"Melanesia","Oceania",2,613,26,3,642
+2015-03-31,"Middle Africa","Africa",6,4253,695,15,4963
+2015-03-31,"Northern Africa","Africa",3,4691,567,114,5372
+2015-03-31,"Northern America","North America",2,59,153,18,230
+2015-03-31,"Northern Europe","Europe",8,1275,87,96,1458
+2015-03-31,"Polynesia","Oceania",1,NA,14,NA,14
+2015-03-31,"South America","South America",9,4975,75,135,5185
+2015-03-31,"South-Eastern Asia","Asia",9,4381,192,90,4663
+2015-03-31,"Southern Africa","Africa",3,2104,103,29,2236
+2015-03-31,"Southern Asia","Asia",6,28506,3699,308,32513
+2015-03-31,"Southern Europe","Europe",11,2280,65,35,2380
+2015-03-31,"Western Africa","Africa",15,13766,3590,239,17595
+2015-03-31,"Western Asia","Asia",6,384,1777,99,2260
+2015-03-31,"Western Europe","Europe",6,1915,91,63,2069
+2015-04-30,"Australia and New Zealand","Oceania",2,16,14,22,52
+2015-04-30,"Caribbean","South America",2,NA,16,NA,16
+2015-04-30,"Central America","South America",4,429,4,33,466
+2015-04-30,"Central Asia","Asia",2,2,13,13,28
+2015-04-30,"Eastern Africa","Africa",11,17887,1472,279,19638
+2015-04-30,"Eastern Asia","Asia",4,4488,179,66,4733
+2015-04-30,"Eastern Europe","Europe",10,722,152,141,1015
+2015-04-30,"Melanesia","Oceania",2,592,20,3,615
+2015-04-30,"Middle Africa","Africa",6,4251,697,18,4966
+2015-04-30,"Northern Africa","Africa",3,4720,598,120,5438
+2015-04-30,"Northern America","North America",2,67,130,20,217
+2015-04-30,"Northern Europe","Europe",8,1304,94,98,1496
+2015-04-30,"Polynesia","Oceania",1,NA,14,NA,14
+2015-04-30,"South America","South America",9,5203,66,121,5390
+2015-04-30,"South-Eastern Asia","Asia",9,4435,214,79,4728
+2015-04-30,"Southern Africa","Africa",3,2110,100,28,2238
+2015-04-30,"Southern Asia","Asia",6,28132,3748,306,32186
+2015-04-30,"Southern Europe","Europe",11,2232,60,37,2329
+2015-04-30,"Western Africa","Africa",15,14011,3647,218,17876
+2015-04-30,"Western Asia","Asia",6,332,1843,102,2277
+2015-04-30,"Western Europe","Europe",6,1915,104,68,2087
+2015-05-31,"Australia and New Zealand","Oceania",2,15,15,24,54
+2015-05-31,"Caribbean","South America",2,NA,14,NA,14
+2015-05-31,"Central America","South America",4,513,NA,33,546
+2015-05-31,"Central Asia","Asia",2,2,12,15,29
+2015-05-31,"Eastern Africa","Africa",11,18135,1474,280,19889
+2015-05-31,"Eastern Asia","Asia",4,4674,179,67,4920
+2015-05-31,"Eastern Europe","Europe",10,725,154,146,1025
+2015-05-31,"Melanesia","Oceania",2,614,15,1,630
+2015-05-31,"Middle Africa","Africa",6,4213,695,14,4922
+2015-05-31,"Northern Africa","Africa",3,3939,591,112,4642
+2015-05-31,"Northern America","North America",2,54,12,16,82
+2015-05-31,"Northern Europe","Europe",8,1286,89,100,1475
+2015-05-31,"Polynesia","Oceania",1,NA,16,NA,16
+2015-05-31,"South America","South America",9,4153,44,119,4316
+2015-05-31,"South-Eastern Asia","Asia",9,4409,202,85,4696
+2015-05-31,"Southern Africa","Africa",3,2134,109,27,2270
+2015-05-31,"Southern Asia","Asia",6,28384,3680,292,32356
+2015-05-31,"Southern Europe","Europe",10,2150,49,35,2234
+2015-05-31,"Western Africa","Africa",15,14152,3503,219,17874
+2015-05-31,"Western Asia","Asia",6,360,1820,105,2285
+2015-05-31,"Western Europe","Europe",6,1737,91,70,1898
+2015-06-30,"Australia and New Zealand","Oceania",2,16,15,24,55
+2015-06-30,"Caribbean","South America",2,NA,15,NA,15
+2015-06-30,"Central America","South America",4,433,4,30,467
+2015-06-30,"Central Asia","Asia",2,2,12,15,29
+2015-06-30,"Eastern Africa","Africa",11,18418,1444,275,20137
+2015-06-30,"Eastern Asia","Asia",4,4682,179,53,4914
+2015-06-30,"Eastern Europe","Europe",10,719,161,150,1030
+2015-06-30,"Melanesia","Oceania",3,614,15,2,631
+2015-06-30,"Middle Africa","Africa",6,4198,714,17,4929
+2015-06-30,"Northern Africa","Africa",3,3805,588,117,4510
+2015-06-30,"Northern America","North America",2,50,125,16,191
+2015-06-30,"Northern Europe","Europe",8,1274,92,98,1464
+2015-06-30,"Polynesia","Oceania",1,NA,16,NA,16
+2015-06-30,"South America","South America",9,3762,74,123,3959
+2015-06-30,"South-Eastern Asia","Asia",9,4401,232,89,4722
+2015-06-30,"Southern Africa","Africa",3,2139,108,26,2273
+2015-06-30,"Southern Asia","Asia",6,27803,3716,289,31808
+2015-06-30,"Southern Europe","Europe",10,2044,52,33,2129
+2015-06-30,"Western Africa","Africa",15,14458,3592,233,18283
+2015-06-30,"Western Asia","Asia",6,317,1840,100,2257
+2015-06-30,"Western Europe","Europe",6,1666,104,70,1840
+2015-07-31,"Australia and New Zealand","Oceania",2,16,15,24,55
+2015-07-31,"Caribbean","South America",2,NA,15,NA,15
+2015-07-31,"Central America","South America",4,430,12,28,470
+2015-07-31,"Central Asia","Asia",2,2,11,14,27
+2015-07-31,"Eastern Africa","Africa",11,17559,1479,264,19302
+2015-07-31,"Eastern Asia","Asia",4,4689,164,62,4915
+2015-07-31,"Eastern Europe","Europe",10,722,164,156,1042
+2015-07-31,"Melanesia","Oceania",3,615,14,3,632
+2015-07-31,"Middle Africa","Africa",6,4074,734,18,4826
+2015-07-31,"Northern Africa","Africa",4,3849,604,125,4578
+2015-07-31,"Northern America","North America",2,46,129,15,190
+2015-07-31,"Northern Europe","Europe",8,1271,102,95,1468
+2015-07-31,"Polynesia","Oceania",1,NA,16,NA,16
+2015-07-31,"South America","South America",9,3703,74,129,3906
+2015-07-31,"South-Eastern Asia","Asia",9,5328,232,108,5668
+2015-07-31,"Southern Africa","Africa",3,2145,104,25,2274
+2015-07-31,"Southern Asia","Asia",6,26810,3777,299,30886
+2015-07-31,"Southern Europe","Europe",11,2093,54,34,2181
+2015-07-31,"Western Africa","Africa",15,15661,3686,232,19579
+2015-07-31,"Western Asia","Asia",6,325,1844,100,2269
+2015-07-31,"Western Europe","Europe",6,1812,103,72,1987
+2015-08-31,"Australia and New Zealand","Oceania",2,20,15,24,59
+2015-08-31,"Caribbean","South America",2,NA,15,NA,15
+2015-08-31,"Central America","South America",4,431,12,33,476
+2015-08-31,"Central Asia","Asia",2,2,10,13,25
+2015-08-31,"Eastern Africa","Africa",11,18691,1519,282,20492
+2015-08-31,"Eastern Asia","Asia",4,4680,164,66,4910
+2015-08-31,"Eastern Europe","Europe",10,725,163,159,1047
+2015-08-31,"Melanesia","Oceania",3,616,28,5,649
+2015-08-31,"Middle Africa","Africa",6,4100,717,20,4837
+2015-08-31,"Northern Africa","Africa",4,3856,623,122,4601
+2015-08-31,"Northern America","North America",2,52,130,16,198
+2015-08-31,"Northern Europe","Europe",8,1283,240,93,1616
+2015-08-31,"Polynesia","Oceania",1,NA,16,NA,16
+2015-08-31,"South America","South America",8,3699,55,131,3885
+2015-08-31,"South-Eastern Asia","Asia",10,4408,256,95,4759
+2015-08-31,"Southern Africa","Africa",3,2137,76,24,2237
+2015-08-31,"Southern Asia","Asia",6,26718,3631,294,30643
+2015-08-31,"Southern Europe","Europe",11,2092,51,32,2175
+2015-08-31,"Western Africa","Africa",15,15724,3880,239,19843
+2015-08-31,"Western Asia","Asia",6,173,1862,100,2135
+2015-08-31,"Western Europe","Europe",6,1725,92,71,1888
+2015-09-30,"Australia and New Zealand","Oceania",2,18,15,25,58
+2015-09-30,"Caribbean","South America",2,NA,15,NA,15
+2015-09-30,"Central America","South America",4,431,12,32,475
+2015-09-30,"Central Asia","Asia",2,2,7,13,22
+2015-09-30,"Eastern Africa","Africa",11,18608,1676,272,20556
+2015-09-30,"Eastern Asia","Asia",4,4639,176,59,4874
+2015-09-30,"Eastern Europe","Europe",10,724,166,154,1044
+2015-09-30,"Melanesia","Oceania",3,611,33,5,649
+2015-09-30,"Middle Africa","Africa",6,4085,725,19,4829
+2015-09-30,"Northern Africa","Africa",4,3840,635,119,4594
+2015-09-30,"Northern America","North America",2,52,127,15,194
+2015-09-30,"Northern Europe","Europe",8,1281,100,92,1473
+2015-09-30,"Polynesia","Oceania",1,NA,11,NA,11
+2015-09-30,"South America","South America",9,3603,63,126,3792
+2015-09-30,"South-Eastern Asia","Asia",10,4510,240,94,4844
+2015-09-30,"Southern Africa","Africa",3,2134,81,26,2241
+2015-09-30,"Southern Asia","Asia",6,25840,3635,303,29778
+2015-09-30,"Southern Europe","Europe",10,2174,57,32,2263
+2015-09-30,"Western Africa","Africa",15,15602,3864,245,19711
+2015-09-30,"Western Asia","Asia",6,170,1879,99,2148
+2015-09-30,"Western Europe","Europe",6,1742,89,78,1909
+2015-10-31,"Australia and New Zealand","Oceania",2,18,15,25,58
+2015-10-31,"Caribbean","South America",2,NA,15,NA,15
+2015-10-31,"Central America","South America",4,451,12,33,496
+2015-10-31,"Central Asia","Asia",2,2,7,15,24
+2015-10-31,"Eastern Africa","Africa",11,18645,1965,277,20887
+2015-10-31,"Eastern Asia","Asia",4,4640,172,68,4880
+2015-10-31,"Eastern Europe","Europe",10,728,161,165,1054
+2015-10-31,"Melanesia","Oceania",3,615,33,5,653
+2015-10-31,"Middle Africa","Africa",6,4076,721,21,4818
+2015-10-31,"Northern Africa","Africa",4,3845,643,122,4610
+2015-10-31,"Northern America","North America",2,57,128,15,200
+2015-10-31,"Northern Europe","Europe",8,1268,90,86,1444
+2015-10-31,"Polynesia","Oceania",1,NA,11,NA,11
+2015-10-31,"South America","South America",9,3657,61,112,3830
+2015-10-31,"South-Eastern Asia","Asia",10,4535,239,101,4875
+2015-10-31,"Southern Africa","Africa",3,2130,81,29,2240
+2015-10-31,"Southern Asia","Asia",6,25817,3659,305,29781
+2015-10-31,"Southern Europe","Europe",10,2205,57,30,2292
+2015-10-31,"Western Africa","Africa",15,15443,3873,249,19565
+2015-10-31,"Western Asia","Asia",7,236,1893,98,2227
+2015-10-31,"Western Europe","Europe",6,1748,79,72,1899
+2015-11-30,"Australia and New Zealand","Oceania",2,18,12,25,55
+2015-11-30,"Caribbean","South America",2,NA,15,NA,15
+2015-11-30,"Central America","South America",4,456,12,29,497
+2015-11-30,"Central Asia","Asia",2,2,11,15,28
+2015-11-30,"Eastern Africa","Africa",11,18653,1977,270,20900
+2015-11-30,"Eastern Asia","Asia",4,4636,159,68,4863
+2015-11-30,"Eastern Europe","Europe",10,729,146,160,1035
+2015-11-30,"Melanesia","Oceania",3,617,33,5,655
+2015-11-30,"Middle Africa","Africa",6,4116,717,24,4857
+2015-11-30,"Northern Africa","Africa",4,3853,638,123,4614
+2015-11-30,"Northern America","North America",2,52,123,15,190
+2015-11-30,"Northern Europe","Europe",8,1280,88,89,1457
+2015-11-30,"Polynesia","Oceania",1,NA,10,NA,10
+2015-11-30,"South America","South America",9,3655,54,119,3828
+2015-11-30,"South-Eastern Asia","Asia",10,4534,230,103,4867
+2015-11-30,"Southern Africa","Africa",3,2125,75,28,2228
+2015-11-30,"Southern Asia","Asia",6,26188,3666,301,30155
+2015-11-30,"Southern Europe","Europe",10,2075,60,35,2170
+2015-11-30,"Western Africa","Africa",15,15715,3914,237,19866
+2015-11-30,"Western Asia","Asia",7,214,1873,102,2189
+2015-11-30,"Western Europe","Europe",6,1878,103,76,2057
+2015-12-31,"Australia and New Zealand","Oceania",2,17,10,25,52
+2015-12-31,"Caribbean","South America",2,NA,4,NA,4
+2015-12-31,"Central America","South America",4,459,12,34,505
+2015-12-31,"Central Asia","Asia",2,2,11,13,26
+2015-12-31,"Eastern Africa","Africa",11,19169,1979,262,21410
+2015-12-31,"Eastern Asia","Asia",4,4651,172,68,4891
+2015-12-31,"Eastern Europe","Europe",10,728,139,161,1028
+2015-12-31,"Melanesia","Oceania",3,615,30,7,652
+2015-12-31,"Middle Africa","Africa",5,4124,712,24,4860
+2015-12-31,"Northern Africa","Africa",4,4588,619,126,5333
+2015-12-31,"Northern America","North America",2,55,123,15,193
+2015-12-31,"Northern Europe","Europe",8,1276,85,90,1451
+2015-12-31,"Polynesia","Oceania",1,NA,10,NA,10
+2015-12-31,"South America","South America",8,3664,38,129,3831
+2015-12-31,"South-Eastern Asia","Asia",10,4534,253,105,4892
+2015-12-31,"Southern Africa","Africa",3,2126,52,29,2207
+2015-12-31,"Southern Asia","Asia",6,25819,3680,308,29807
+2015-12-31,"Southern Europe","Europe",10,2070,58,35,2163
+2015-12-31,"Western Africa","Africa",15,15469,3939,246,19654
+2015-12-31,"Western Asia","Asia",7,242,1835,102,2179
+2015-12-31,"Western Europe","Europe",6,1775,97,68,1940
+2016-01-31,"Australia and New Zealand","Oceania",2,17,10,25,52
+2016-01-31,"Caribbean","South America",2,NA,2,NA,2
+2016-01-31,"Central America","South America",4,458,12,33,503
+2016-01-31,"Central Asia","Asia",2,2,11,15,28
+2016-01-31,"Eastern Africa","Africa",11,19126,1887,281,21294
+2016-01-31,"Eastern Asia","Asia",4,4655,172,68,4895
+2016-01-31,"Eastern Europe","Europe",10,728,136,158,1022
+2016-01-31,"Melanesia","Oceania",3,616,29,7,652
+2016-01-31,"Middle Africa","Africa",5,4388,597,24,5009
+2016-01-31,"Northern Africa","Africa",4,4546,644,124,5314
+2016-01-31,"Northern America","North America",2,53,119,15,187
+2016-01-31,"Northern Europe","Europe",8,1324,88,90,1502
+2016-01-31,"Polynesia","Oceania",1,NA,8,NA,8
+2016-01-31,"South America","South America",9,3842,45,126,4013
+2016-01-31,"South-Eastern Asia","Asia",10,4516,221,103,4840
+2016-01-31,"Southern Africa","Africa",3,2124,52,29,2205
+2016-01-31,"Southern Asia","Asia",6,25557,3688,324,29569
+2016-01-31,"Southern Europe","Europe",10,2085,56,35,2176
+2016-01-31,"Western Africa","Africa",15,15609,3897,234,19740
+2016-01-31,"Western Asia","Asia",7,251,1792,108,2151
+2016-01-31,"Western Europe","Europe",6,1749,94,71,1914
+2016-02-29,"Australia and New Zealand","Oceania",2,16,10,22,48
+2016-02-29,"Caribbean","South America",1,NA,1,NA,1
+2016-02-29,"Central America","South America",4,456,12,43,511
+2016-02-29,"Central Asia","Asia",2,2,12,12,26
+2016-02-29,"Eastern Africa","Africa",12,19730,1843,284,21857
+2016-02-29,"Eastern Asia","Asia",4,4490,202,63,4755
+2016-02-29,"Eastern Europe","Europe",10,699,137,155,991
+2016-02-29,"Melanesia","Oceania",3,615,29,7,651
+2016-02-29,"Middle Africa","Africa",5,3289,593,24,3906
+2016-02-29,"Northern Africa","Africa",4,4582,619,114,5315
+2016-02-29,"Northern America","North America",2,54,111,15,180
+2016-02-29,"Northern Europe","Europe",9,1320,90,94,1504
+2016-02-29,"Polynesia","Oceania",1,NA,8,NA,8
+2016-02-29,"South America","South America",9,3831,47,113,3991
+2016-02-29,"South-Eastern Asia","Asia",10,4532,224,107,4863
+2016-02-29,"Southern Africa","Africa",2,2071,48,24,2143
+2016-02-29,"Southern Asia","Asia",6,24721,3501,327,28549
+2016-02-29,"Southern Europe","Europe",10,2086,51,35,2172
+2016-02-29,"Western Africa","Africa",15,15717,3887,235,19839
+2016-02-29,"Western Asia","Asia",7,219,1753,107,2079
+2016-02-29,"Western Europe","Europe",6,1751,101,73,1925
+2016-03-31,"Australia and New Zealand","Oceania",2,17,10,26,53
+2016-03-31,"Caribbean","South America",1,NA,1,NA,1
+2016-03-31,"Central America","South America",4,457,12,37,506
+2016-03-31,"Central Asia","Asia",2,2,12,12,26
+2016-03-31,"Eastern Africa","Africa",12,19715,1916,274,21905
+2016-03-31,"Eastern Asia","Asia",4,4654,174,64,4892
+2016-03-31,"Eastern Europe","Europe",10,699,148,157,1004
+2016-03-31,"Melanesia","Oceania",3,611,24,7,642
+2016-03-31,"Middle Africa","Africa",5,3266,584,24,3874
+2016-03-31,"Northern Africa","Africa",4,4580,616,119,5315
+2016-03-31,"Northern America","North America",2,53,87,15,155
+2016-03-31,"Northern Europe","Europe",9,1456,92,94,1642
+2016-03-31,"Polynesia","Oceania",1,NA,6,NA,6
+2016-03-31,"South America","South America",9,3898,47,109,4054
+2016-03-31,"South-Eastern Asia","Asia",9,4527,224,106,4857
+2016-03-31,"Southern Africa","Africa",2,2067,48,24,2139
+2016-03-31,"Southern Asia","Asia",6,24249,3481,311,28041
+2016-03-31,"Southern Europe","Europe",10,2117,49,35,2201
+2016-03-31,"Western Africa","Africa",15,15810,3898,230,19938
+2016-03-31,"Western Asia","Asia",7,219,1721,100,2040
+2016-03-31,"Western Europe","Europe",6,1920,101,69,2090
+2016-04-30,"Australia and New Zealand","Oceania",2,21,10,24,55
+2016-04-30,"Caribbean","South America",1,NA,1,NA,1
+2016-04-30,"Central America","South America",4,466,12,38,516
+2016-04-30,"Central Asia","Asia",2,2,12,11,25
+2016-04-30,"Eastern Africa","Africa",12,19717,1957,272,21946
+2016-04-30,"Eastern Asia","Asia",4,4646,171,68,4885
+2016-04-30,"Eastern Europe","Europe",10,698,144,156,998
+2016-04-30,"Melanesia","Oceania",3,609,25,7,641
+2016-04-30,"Middle Africa","Africa",5,3259,580,20,3859
+2016-04-30,"Northern Africa","Africa",4,4521,788,123,5432
+2016-04-30,"Northern America","North America",2,56,84,13,153
+2016-04-30,"Northern Europe","Europe",9,1333,95,103,1531
+2016-04-30,"Polynesia","Oceania",1,NA,9,NA,9
+2016-04-30,"South America","South America",9,3916,76,115,4107
+2016-04-30,"South-Eastern Asia","Asia",9,4428,229,108,4765
+2016-04-30,"Southern Africa","Africa",2,1576,61,26,1663
+2016-04-30,"Southern Asia","Asia",6,24248,3076,307,27631
+2016-04-30,"Southern Europe","Europe",10,2289,47,32,2368
+2016-04-30,"Western Africa","Africa",15,16069,3944,235,20248
+2016-04-30,"Western Asia","Asia",7,182,1205,100,1487
+2016-04-30,"Western Europe","Europe",6,1788,102,69,1959
+2016-05-31,"Australia and New Zealand","Oceania",2,18,9,23,50
+2016-05-31,"Caribbean","South America",1,NA,1,NA,1
+2016-05-31,"Central America","South America",4,457,12,38,507
+2016-05-31,"Central Asia","Asia",2,1,11,9,21
+2016-05-31,"Eastern Africa","Africa",12,19728,2029,258,22015
+2016-05-31,"Eastern Asia","Asia",4,4651,176,67,4894
+2016-05-31,"Eastern Europe","Europe",10,700,148,154,1002
+2016-05-31,"Melanesia","Oceania",3,608,34,7,649
+2016-05-31,"Middle Africa","Africa",5,3249,582,20,3851
+2016-05-31,"Northern Africa","Africa",4,4592,921,115,5628
+2016-05-31,"Northern America","North America",2,52,109,14,175
+2016-05-31,"Northern Europe","Europe",9,1330,98,93,1521
+2016-05-31,"Polynesia","Oceania",1,NA,18,NA,18
+2016-05-31,"South America","South America",9,3926,75,113,4114
+2016-05-31,"South-Eastern Asia","Asia",9,4554,228,101,4883
+2016-05-31,"Southern Africa","Africa",2,1372,101,24,1497
+2016-05-31,"Southern Asia","Asia",6,24263,3045,299,27607
+2016-05-31,"Southern Europe","Europe",10,2120,48,32,2200
+2016-05-31,"Western Africa","Africa",15,15406,4184,230,19820
+2016-05-31,"Western Asia","Asia",7,198,1183,91,1472
+2016-05-31,"Western Europe","Europe",6,1865,82,68,2015
+2016-06-30,"Australia and New Zealand","Oceania",2,18,10,22,50
+2016-06-30,"Caribbean","South America",1,NA,1,NA,1
+2016-06-30,"Central America","South America",4,455,12,38,505
+2016-06-30,"Central Asia","Asia",2,2,10,9,21
+2016-06-30,"Eastern Africa","Africa",12,19696,2049,264,22009
+2016-06-30,"Eastern Asia","Asia",4,4256,179,59,4494
+2016-06-30,"Eastern Europe","Europe",10,718,151,153,1022
+2016-06-30,"Melanesia","Oceania",3,598,32,6,636
+2016-06-30,"Middle Africa","Africa",5,3278,560,17,3855
+2016-06-30,"Northern Africa","Africa",4,3882,916,117,4915
+2016-06-30,"Northern America","North America",2,56,108,15,179
+2016-06-30,"Northern Europe","Europe",9,1378,92,92,1562
+2016-06-30,"Polynesia","Oceania",1,NA,18,NA,18
+2016-06-30,"South America","South America",9,3893,72,116,4081
+2016-06-30,"South-Eastern Asia","Asia",9,4517,258,98,4873
+2016-06-30,"Southern Africa","Africa",2,1372,100,20,1492
+2016-06-30,"Southern Asia","Asia",6,24113,2936,307,27356
+2016-06-30,"Southern Europe","Europe",10,2113,49,30,2192
+2016-06-30,"Western Africa","Africa",15,14931,4254,234,19419
+2016-06-30,"Western Asia","Asia",7,165,1188,93,1446
+2016-06-30,"Western Europe","Europe",6,1804,84,67,1955
+2016-07-31,"Australia and New Zealand","Oceania",2,17,9,23,49
+2016-07-31,"Caribbean","South America",1,NA,1,NA,1
+2016-07-31,"Central America","South America",4,456,12,65,533
+2016-07-31,"Central Asia","Asia",2,2,10,9,21
+2016-07-31,"Eastern Africa","Africa",12,19687,2084,273,22044
+2016-07-31,"Eastern Asia","Asia",4,4239,179,50,4468
+2016-07-31,"Eastern Europe","Europe",10,710,155,152,1017
+2016-07-31,"Melanesia","Oceania",3,604,33,6,643
+2016-07-31,"Middle Africa","Africa",5,3277,562,20,3859
+2016-07-31,"Northern Africa","Africa",3,3875,929,119,4923
+2016-07-31,"Northern America","North America",2,54,103,14,171
+2016-07-31,"Northern Europe","Europe",9,1435,92,91,1618
+2016-07-31,"Polynesia","Oceania",1,NA,18,NA,18
+2016-07-31,"South America","South America",9,3766,71,168,4005
+2016-07-31,"South-Eastern Asia","Asia",9,4518,258,98,4874
+2016-07-31,"Southern Africa","Africa",2,1365,102,18,1485
+2016-07-31,"Southern Asia","Asia",6,23965,3078,306,27349
+2016-07-31,"Southern Europe","Europe",9,2096,44,30,2170
+2016-07-31,"Western Africa","Africa",15,14563,4239,238,19040
+2016-07-31,"Western Asia","Asia",7,176,1142,92,1410
+2016-07-31,"Western Europe","Europe",6,1815,96,65,1976
+2016-08-31,"Australia and New Zealand","Oceania",2,17,9,24,50
+2016-08-31,"Caribbean","South America",1,NA,1,NA,1
+2016-08-31,"Central America","South America",4,457,21,60,538
+2016-08-31,"Central Asia","Asia",2,2,10,9,21
+2016-08-31,"Eastern Africa","Africa",12,19713,1774,260,21747
+2016-08-31,"Eastern Asia","Asia",4,4249,181,59,4489
+2016-08-31,"Eastern Europe","Europe",10,708,154,151,1013
+2016-08-31,"Melanesia","Oceania",4,571,45,7,623
+2016-08-31,"Middle Africa","Africa",5,3279,567,21,3867
+2016-08-31,"Northern Africa","Africa",3,3721,906,116,4743
+2016-08-31,"Northern America","North America",2,53,113,14,180
+2016-08-31,"Northern Europe","Europe",9,1402,88,91,1581
+2016-08-31,"Polynesia","Oceania",1,NA,18,NA,18
+2016-08-31,"South America","South America",9,4022,80,164,4266
+2016-08-31,"South-Eastern Asia","Asia",9,4516,236,90,4842
+2016-08-31,"Southern Africa","Africa",2,1370,103,19,1492
+2016-08-31,"Southern Asia","Asia",6,23670,3091,287,27048
+2016-08-31,"Southern Europe","Europe",10,2091,45,30,2166
+2016-08-31,"Western Africa","Africa",15,14499,4251,234,18984
+2016-08-31,"Western Asia","Asia",7,168,1114,89,1371
+2016-08-31,"Western Europe","Europe",6,1749,95,66,1910
+2016-09-30,"Australia and New Zealand","Oceania",2,22,9,23,54
+2016-09-30,"Caribbean","South America",1,NA,1,NA,1
+2016-09-30,"Central America","South America",4,456,29,85,570
+2016-09-30,"Central Asia","Asia",2,2,10,8,20
+2016-09-30,"Eastern Africa","Africa",12,19703,1775,253,21731
+2016-09-30,"Eastern Asia","Asia",4,4262,170,62,4494
+2016-09-30,"Eastern Europe","Europe",10,717,155,151,1023
+2016-09-30,"Melanesia","Oceania",4,615,42,7,664
+2016-09-30,"Middle Africa","Africa",5,3281,590,19,3890
+2016-09-30,"Northern Africa","Africa",3,3705,902,115,4722
+2016-09-30,"Northern America","North America",2,52,115,13,180
+2016-09-30,"Northern Europe","Europe",9,1409,85,93,1587
+2016-09-30,"Polynesia","Oceania",1,NA,17,NA,17
+2016-09-30,"South America","South America",9,3909,85,207,4201
+2016-09-30,"South-Eastern Asia","Asia",9,4525,255,84,4864
+2016-09-30,"Southern Africa","Africa",2,1370,103,23,1496
+2016-09-30,"Southern Asia","Asia",6,23949,3102,283,27334
+2016-09-30,"Southern Europe","Europe",10,2126,41,29,2196
+2016-09-30,"Western Africa","Africa",15,14490,4242,238,18970
+2016-09-30,"Western Asia","Asia",6,158,1105,87,1350
+2016-09-30,"Western Europe","Europe",6,1835,90,68,1993
+2016-10-31,"Australia and New Zealand","Oceania",2,18,9,23,50
+2016-10-31,"Caribbean","South America",1,NA,1,NA,1
+2016-10-31,"Central America","South America",4,456,31,85,572
+2016-10-31,"Central Asia","Asia",2,2,10,7,19
+2016-10-31,"Eastern Africa","Africa",12,19695,1788,253,21736
+2016-10-31,"Eastern Asia","Asia",4,4264,170,58,4492
+2016-10-31,"Eastern Europe","Europe",10,715,155,142,1012
+2016-10-31,"Melanesia","Oceania",4,635,42,7,684
+2016-10-31,"Middle Africa","Africa",5,3266,589,16,3871
+2016-10-31,"Northern Africa","Africa",3,3703,897,120,4720
+2016-10-31,"Northern America","North America",2,50,118,12,180
+2016-10-31,"Northern Europe","Europe",9,1402,101,96,1599
+2016-10-31,"Polynesia","Oceania",1,NA,17,NA,17
+2016-10-31,"South America","South America",9,3901,82,203,4186
+2016-10-31,"South-Eastern Asia","Asia",9,4520,248,82,4850
+2016-10-31,"Southern Africa","Africa",2,1370,103,21,1494
+2016-10-31,"Southern Asia","Asia",6,24041,3117,271,27429
+2016-10-31,"Southern Europe","Europe",10,2217,45,30,2292
+2016-10-31,"Western Africa","Africa",15,14490,4251,230,18971
+2016-10-31,"Western Asia","Asia",6,198,1108,89,1395
+2016-10-31,"Western Europe","Europe",6,1829,91,67,1987
+2016-12-31,"Australia and New Zealand","Oceania",2,17,7,23,47
+2016-12-31,"Caribbean","South America",2,NA,1,12,13
+2016-12-31,"Central America","South America",5,455,31,117,603
+2016-12-31,"Central Asia","Asia",2,2,9,8,19
+2016-12-31,"Eastern Africa","Africa",12,18792,1709,280,20781
+2016-12-31,"Eastern Asia","Asia",4,4258,161,59,4478
+2016-12-31,"Eastern Europe","Europe",10,713,167,149,1029
+2016-12-31,"Melanesia","Oceania",4,619,47,7,673
+2016-12-31,"Middle Africa","Africa",5,3324,574,40,3938
+2016-12-31,"Northern Africa","Africa",4,3686,922,131,4739
+2016-12-31,"Northern America","North America",2,53,134,18,205
+2016-12-31,"Northern Europe","Europe",8,1339,120,100,1559
+2016-12-31,"Polynesia","Oceania",1,NA,18,NA,18
+2016-12-31,"South America","South America",9,3887,73,264,4224
+2016-12-31,"South-Eastern Asia","Asia",9,4323,247,98,4668
+2016-12-31,"Southern Africa","Africa",2,1370,102,23,1495
+2016-12-31,"Southern Asia","Asia",6,23993,3104,322,27419
+2016-12-31,"Southern Europe","Europe",10,2144,53,64,2261
+2016-12-31,"Western Africa","Africa",15,14409,4063,276,18748
+2016-12-31,"Western Asia","Asia",7,205,1154,99,1458
+2016-12-31,"Western Europe","Europe",6,1862,76,63,2001
+2017-01-31,"Australia and New Zealand","Oceania",2,17,7,23,47
+2017-01-31,"Caribbean","South America",2,NA,1,13,14
+2017-01-31,"Central America","South America",5,451,31,130,612
+2017-01-31,"Central Asia","Asia",2,2,8,8,18
+2017-01-31,"Eastern Africa","Africa",12,18733,1710,257,20700
+2017-01-31,"Eastern Asia","Asia",4,4220,160,60,4440
+2017-01-31,"Eastern Europe","Europe",10,707,166,148,1021
+2017-01-31,"Melanesia","Oceania",4,618,39,7,664
+2017-01-31,"Middle Africa","Africa",5,3142,568,38,3748
+2017-01-31,"Northern Africa","Africa",4,3536,915,145,4596
+2017-01-31,"Northern America","North America",2,49,131,17,197
+2017-01-31,"Northern Europe","Europe",9,1384,120,103,1607
+2017-01-31,"Polynesia","Oceania",1,NA,18,NA,18
+2017-01-31,"South America","South America",9,3845,69,323,4237
+2017-01-31,"South-Eastern Asia","Asia",9,4303,387,104,4794
+2017-01-31,"Southern Africa","Africa",2,1368,102,20,1490
+2017-01-31,"Southern Asia","Asia",6,24078,3099,305,27482
+2017-01-31,"Southern Europe","Europe",10,2309,60,66,2435
+2017-01-31,"Western Africa","Africa",15,14379,3988,268,18635
+2017-01-31,"Western Asia","Asia",7,200,1146,94,1440
+2017-01-31,"Western Europe","Europe",6,1882,78,76,2036
+2017-02-28,"Australia and New Zealand","Oceania",2,19,7,23,49
+2017-02-28,"Caribbean","South America",3,NA,1,24,25
+2017-02-28,"Central America","South America",5,451,31,134,616
+2017-02-28,"Central Asia","Asia",2,2,8,9,19
+2017-02-28,"Eastern Africa","Africa",12,18770,1667,281,20718
+2017-02-28,"Eastern Asia","Asia",4,4155,195,61,4411
+2017-02-28,"Eastern Europe","Europe",10,666,163,139,968
+2017-02-28,"Melanesia","Oceania",3,617,38,7,662
+2017-02-28,"Middle Africa","Africa",6,3207,564,35,3806
+2017-02-28,"Northern Africa","Africa",4,3542,935,145,4622
+2017-02-28,"Northern America","North America",2,51,119,19,189
+2017-02-28,"Northern Europe","Europe",9,1406,122,96,1624
+2017-02-28,"Polynesia","Oceania",1,NA,18,NA,18
+2017-02-28,"South America","South America",9,3873,72,390,4335
+2017-02-28,"South-Eastern Asia","Asia",8,4297,387,116,4800
+2017-02-28,"Southern Africa","Africa",2,1363,102,21,1486
+2017-02-28,"Southern Asia","Asia",6,24208,2862,322,27392
+2017-02-28,"Southern Europe","Europe",10,2303,59,66,2428
+2017-02-28,"Western Africa","Africa",15,12183,3812,250,16245
+2017-02-28,"Western Asia","Asia",7,190,995,88,1273
+2017-02-28,"Western Europe","Europe",6,2091,80,77,2248
+2017-03-31,"Australia and New Zealand","Oceania",2,24,7,23,54
+2017-03-31,"Caribbean","South America",2,NA,NA,24,24
+2017-03-31,"Central America","South America",5,453,27,133,613
+2017-03-31,"Central Asia","Asia",2,2,10,7,19
+2017-03-31,"Eastern Africa","Africa",11,18668,1652,286,20606
+2017-03-31,"Eastern Asia","Asia",4,4122,164,62,4348
+2017-03-31,"Eastern Europe","Europe",10,657,150,140,947
+2017-03-31,"Melanesia","Oceania",3,615,39,7,661
+2017-03-31,"Middle Africa","Africa",6,3207,564,33,3804
+2017-03-31,"Northern Africa","Africa",4,3672,916,152,4740
+2017-03-31,"Northern America","North America",2,62,118,20,200
+2017-03-31,"Northern Europe","Europe",9,1406,135,97,1638
+2017-03-31,"Polynesia","Oceania",1,NA,18,NA,18
+2017-03-31,"South America","South America",9,3856,73,386,4315
+2017-03-31,"South-Eastern Asia","Asia",8,4300,248,111,4659
+2017-03-31,"Southern Africa","Africa",2,1357,102,21,1480
+2017-03-31,"Southern Asia","Asia",6,24292,2836,324,27452
+2017-03-31,"Southern Europe","Europe",10,2307,59,66,2432
+2017-03-31,"Western Africa","Africa",15,12138,3751,241,16130
+2017-03-31,"Western Asia","Asia",7,186,1019,78,1283
+2017-03-31,"Western Europe","Europe",6,2201,75,75,2351
