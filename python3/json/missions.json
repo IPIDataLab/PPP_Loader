@@ -1,17 +1,4 @@
 {
-    "UNMC":{
-        "country":"",
-        "hq":"",
-        "country_id":"",
-        "country":"Colombia",
-        "hq":"",
-        "country_id":"COL",
-        "mission":"UNMC",
-        "mission_loc":{
-            "y":0,
-            "x":0
-        }
-    },
     "UNMOGIP":{
         "country":"Pakistan",
         "hq":"Islamabad",
@@ -148,8 +135,8 @@
         "country_id":"ERI",
         "mission":"UNMEE",
         "mission_loc":{
-            "y":15.3333,
-            "x":38.9245
+            "y":12.1817,
+            "x":38.8367
         }
     },
     "MINURCA":{
@@ -298,8 +285,8 @@
         "country_id":"MLI",
         "mission":"MINUSMA",
         "mission_loc":{
-            "y":12.65,
-            "x":-8.0
+            "y":-8.0,
+            "x":12.65
         }
     },
     "UNFICYP":{
@@ -402,26 +389,6 @@
             "x":-72.3333
         }
     },
-    "UNSOM":{
-        "country":"Somalia",
-        "hq":"Mogadishu",
-        "country_id":"SOM",
-        "mission":"UNSOM",
-        "mission_loc":{
-            "y":2.0333,
-            "x":45.35
-        }
-    },  
-    "UNSOS":{
-        "country":"Somalia",
-        "hq":"Mogadishu",
-        "country_id":"SOM",
-        "mission":"UNSOS",
-        "mission_loc":{
-            "y":2.0333,
-            "x":45.35
-        }
-    },      
     "UNOSOM":{
         "country":"Somalia",
         "hq":"Mogadishu",
@@ -431,7 +398,7 @@
             "y":2.0333,
             "x":45.35
         }
-    },   
+    },
     "UNOMIG":{
         "country":"Georgia",
         "hq":"SukhumI",

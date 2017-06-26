@@ -23,6 +23,6 @@ def getNewData(date_str):
 
 	# Format data as json
 	update = r.json()
-	print "Morph.io API request returned " + str(len(update)) +" records."
+	print("Morph.io API request returned " + str(len(update)) +" records.")
 
 	return update

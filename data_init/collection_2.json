@@ -160,6 +160,16 @@
         }
     },
     {
+        "country":"Colombia",
+        "hq":"",
+        "country_id":"COL",
+        "mission":"UNMC",
+        "loc":{
+            "y":,
+            "x":
+        }
+    },
+    {
         "country":"Cote d Ivoire",
         "hq":"Abidjan",
         "country_id":"CIV",
@@ -305,8 +315,8 @@
         "country_id":"ERI",
         "mission":"UNMEE",
         "loc":{
-            "y":12.1817,
-            "x":38.8367
+            "y":15.3333,
+            "x":38.9245
         }
     },
     {
@@ -589,6 +599,16 @@
             "x":45.35
         }
     },
+        {
+        "country":"Somalia",
+        "hq":"Mogadishu",
+        "country_id":"SOM",
+        "mission":"UNSOM",
+        "loc":{
+            "y":2.0333,
+            "x":45.35
+        }
+    },    
     {
         "country":"South Sudan'",
         "hq":"Juba",
@@ -735,8 +755,8 @@
         "country_id":"MLI",
         "mission":"MINUSMA",
         "loc":{
-            "y":-8.0,
-            "x":12.65
+            "y":12.65,
+            "x":-8.0
         }
     },
     {
